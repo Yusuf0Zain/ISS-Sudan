@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/Yusuf0Zain/ISS-Sudan#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "@tailwindcss/vite": "^4.1.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "vite": "^7.0.6"
   }
 }
