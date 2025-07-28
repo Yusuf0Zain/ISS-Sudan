@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "WhatsApp",
+    "url": "-",
+    "icon": "-",
+    "color": "bg-green-500"
+  },
+  {
+    "id": 2,
+    "name": "Instagram",
+    "url": "-",
+    "icon": "-",
+    "color": "bg-pink-500"
+  },
+  {
+    "id": 3,
+    "name": "TikTok",
+    "url": "-",
+    "icon": "-",
+    "color": "bg-black"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Software Engineering",
+    "color": "bg-blue-50 border-blue-200",
+    "Flinks": [
+      {
+        "name": "Website",
+        "url": "-",
+        "icon": "-"
+      },
+      {
+        "name": "Location",
+        "url": "-",
+        "icon": "-"
+      }
+    ],
+      "Slinks": [
+      {
+        "name": "Drive",
+        "url": "-",
+        "icon": "-"
+      },
+      {
+        "name": "Discord",
+        "url": "-",
+        "icon": "-"
+      },
+      {
+        "name": "Whatsapp",
+        "url": "-",
+        "icon": "-"
+      }
+    ]
+  }
+]
