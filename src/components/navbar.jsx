@@ -56,7 +56,7 @@ const StyledWrapper = styled.div`
   .menu {
     padding: 0.5rem;
     font-weight: bold;
-    scale: 1.5;
+    scale: 1;
     background-color: #fff;
     position: relative;
     display: flex;
