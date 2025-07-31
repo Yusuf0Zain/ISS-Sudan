@@ -19,7 +19,7 @@
 .bg-img {
   max-width: 100vw;
   height: auto;
-  max-height: 40vh;
+  max-height: 40vw;
   width: auto;
   object-fit: cover;
   margin-right: 8px;
