@@ -109,6 +109,10 @@
   .sudan {
     font-size: 2rem !important;
   }
+  .home-content {
+    font-size: 3rem !important;
+    padding: 1rem;
+  }
   .home-content .text {
     font-size: 1rem !important;
   }

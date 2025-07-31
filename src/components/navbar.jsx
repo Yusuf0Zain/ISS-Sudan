@@ -64,7 +64,27 @@ const StyledWrapper = styled.div`
     justify-content: center;
     border-radius: 15px;
   } 
+  @media (max-width: 900px) {
+    .menu {
+      padding: 0.5rem;
+      scale: 0.8;
+    }
+    .link {
+      width: 50px;
+      height: 40px;
+    }
+  }
 
+  @media (max-width: 600px) {
+    .menu {
+      padding: 0.5rem;
+      scale: 0.6;
+    }
+    .link {
+      width: 40px;
+      height: 30px;
+    }
+  }
   .link {
     display: inline-flex;
     justify-content: center;

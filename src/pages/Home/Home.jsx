@@ -1,5 +1,4 @@
 import React from 'react';
-import tower from '../../assets/tower.png';
 import './Home.css';
 
 const images = require.context('../../assets/groups', false, /\.(png|jpe?g|svg)$/)

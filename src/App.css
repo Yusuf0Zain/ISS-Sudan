@@ -103,3 +103,30 @@
   font-weight: bold;
 }
 
+@media (max-width: 900px) {
+  .header-title {
+    font-size: 2rem;
+  }
+  .logo-img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .license {
+    font-size: 1rem;
+    padding: 1.5rem 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-title {
+    font-size: 1.3rem;
+  }
+  .logo-img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .license {
+    font-size: 0.9rem;
+    padding: 1rem 0.2rem;
+  }
+}
