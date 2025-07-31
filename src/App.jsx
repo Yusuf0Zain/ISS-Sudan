@@ -7,7 +7,7 @@ import Gallery from './pages/Gallery/Gallery'
 import About from './pages/AboutUs/About'
 import './App.css'
 import icon from './logo.svg'
-
+import Links from './components/links'
 function App() {
   return (
     <div className="container">
@@ -36,6 +36,7 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
+
     </div>
   );
 }
