@@ -6,7 +6,6 @@ import Services from './pages/Services/Services'
 import Gallery from './pages/Gallery/Gallery'
 import About from './pages/AboutUs/About'
 import './App.css'
-import icon from './logo.svg'
 import Links from './components/links'
 function App() {
   return (
@@ -21,11 +20,6 @@ function App() {
           <Navbar />
         </div>
         <div className="header-right">
-          <img
-            src={icon}
-            alt="ISS Sudan Logo"
-            className="inline-block mr-2 align-middle logo-img"
-          />
         </div>
       </div>
       <div className="main-content">

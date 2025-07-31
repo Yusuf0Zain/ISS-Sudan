@@ -14,9 +14,10 @@
   /* Add your background pattern here */
   background: linear-gradient(
     -45deg,
-    #ca863e,
-    #c26546,
-    #d1a671
+    #ff8400,
+    #4d1604,
+    #d1a671,
+    #ff0000
   );
   background-size: 400% 400%;
   animation: gradient 30s ease infinite;
