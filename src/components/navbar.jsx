@@ -54,15 +54,15 @@ const Radio = () => {
 
 const StyledWrapper = styled.div`
   .menu {
+  
     padding: 0.5rem;
-    font-weight: bold;
     scale: 1;
-    background-color: #fff;
+    background-color: #e3d8b3;
     position: relative;
     display: flex;
+    box-shadow: #282c34 0px 4px 4px;
     justify-content: center;
     border-radius: 15px;
-    box-shadow: 0 10px 25px 0 rgba(#000, 0.075);
   } 
 
   .link {
@@ -79,7 +79,7 @@ const StyledWrapper = styled.div`
     transition: width 0.2s ease-in, background 0.2s, color 0.2s;
     text-decoration: none;
     color: inherit;
-    background: #fff;
+    background: #e3d8b3;
     &:before {
       position: absolute;
       z-index: -1;
@@ -92,7 +92,7 @@ const StyledWrapper = styled.div`
       transform: translateX(100%);
       transition: transform 0.2s ease-in;
       transform-origin: center right;
-      background-color: #eee;
+
     }
 
     &:hover,
@@ -100,7 +100,7 @@ const StyledWrapper = styled.div`
       outline: 0;
       width: 130px;
       background: #1C274C;
-      color: #fff;
+      color: #e3d8b3;
 
       &:before {
         background-color: transparent;

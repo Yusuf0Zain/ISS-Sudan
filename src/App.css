@@ -14,12 +14,9 @@
   /* Add your background pattern here */
   background: linear-gradient(
     -45deg,
-    #00eff8,
-    #f800b4,
-    #ebf503,
-    #02f6c1,
-    #00eff8,
-    #9400f8
+    #ca863e,
+    #c26546,
+    #d1a671
   );
   background-size: 400% 400%;
   animation: gradient 30s ease infinite;
@@ -44,8 +41,14 @@
   }
 }
 
+.main-content {
+  padding-top: 100px; /* Adjust this value to match your header height */
+}
 
 .header {
+  position: fixed;
+  z-index: 1000;
+  text-shadow: #282c34 0px 4px 4px;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
@@ -87,9 +90,10 @@
 }
 
 .header-title {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-left: 0.5rem;
+  color: #ffdd05;
 }
 
 .header-action {

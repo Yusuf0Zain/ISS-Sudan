@@ -1,0 +1,104 @@
+.home-bg-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.moving-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: max-content;
+  height: 100%;
+  opacity: 0.8;
+  animation: move-bg 40s linear infinite;
+}
+
+.bg-img {
+  height: 100vh;
+  width: auto;
+  object-fit: cover;
+  margin-right: 8px;
+  border-radius: 10px;
+}
+
+@keyframes move-bg {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.home-content {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 2rem;
+  font-size: 7.5rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.2em solid rgb(255, 255, 255);
+  animation:
+    typeAndDelete 4s steps(41) infinite,
+    blinkCursor 0.3s step-end infinite alternate;
+  margin-top: 1.5em;
+}
+@keyframes blinkCursor {
+  50% {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes typeAndDelete {
+  0%,
+  10% {
+    width: 0;
+  }
+  45%,
+  55% {
+    width: 17.1em;
+  }
+  90%,
+  100% {
+    width: 0;
+  }
+}
+
+.sudan {
+    width: 100%;
+    background: linear-gradient(-45deg, #ffdd05, #b90135, #007401);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

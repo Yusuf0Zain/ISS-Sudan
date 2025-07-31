@@ -13,7 +13,9 @@ function App() {
     <div className="container">
       <div className="header">
         <div className="header-left">
-          <span className="header-title">ISS Sudan</span>
+          <span className="header-title">
+            ISS <span style={{ color: '#fff' }}>Sudan</span>
+          </span>
         </div>
         <div className="header-center">
           <Navbar />
@@ -26,12 +28,14 @@ function App() {
           />
         </div>
       </div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+      <div className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Anton';
-  src: url('../public/Anton-Regular.ttf') format('truetype');
+  src: url('./assets/Anton-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -11,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Anton', Arial, sans-serif;
 }
 
 code {
