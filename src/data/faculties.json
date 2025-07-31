@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Software Engineering",
-    "icon": "/assets/Faculites_icon/desktop-computer-svgrepo-com.svg",
+    "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
     "Flinks": [
       {
         "name": "Website",
@@ -46,7 +46,7 @@
   ,{
     "id": 2,
     "name": "Electrical Engineering",
-    "icon": "/assets/Faculites_icon/bolt-svgrepo-com.svg",
+    "icon": "Faculites_icon/bolt-svgrepo-com.svg",
     "Flinks": [
       {
         "name": "Website",
@@ -90,7 +90,7 @@
   ,{
     "id": 3,
     "name": "Civil Engineering",
-    "icon": "/assets/Faculites_icon/building-svgrepo-com.svg",
+    "icon": "Faculites_icon/building-svgrepo-com.svg",
     "Flinks": [
       {
         "name": "Website",
@@ -134,7 +134,7 @@
   ,{
     "id": 4,
     "name": "Mechanical Engineering",
-    "icon": "/assets/Faculites_icon/engine-svgrepo-com.svg",
+    "icon": "Faculites_icon/engine-warning-svgrepo-com.svg",
     "Flinks": [
       {
         "name": "Website",
@@ -178,7 +178,7 @@
   ,{
     "id": 5,
     "name": "Chemical Engineering",
-    "icon": "/assets/Faculites_icon/vial-svgrepo-com.svg",
+    "icon": "Faculites_icon/vial-svgrepo-com.svg",
     "Flinks": [
       {
         "name": "Website",
@@ -222,7 +222,7 @@
   ,{
     "id": 6,
     "name": "Biomedical Engineering",
-    "icon": "/assets/Faculites_icon/dna-svgrepo-com.svg",
+    "icon": "Faculites_icon/dna-svgrepo-com.svg",
     "Flinks": [
       {
         "name": "Website",
@@ -266,7 +266,7 @@
   ,{
     "id": 7,
     "name": "Business & Management",
-    "icon": "/assets/Faculites_icon/chart-line-svgrepo-com.svg",
+    "icon": "Faculites_icon/chart-line-svgrepo-com.svg",
     "Flinks": [
       {
         "name": "Website",
@@ -310,7 +310,7 @@
   ,{
     "id": 8,
     "name": "Bridging & Foundation",
-    "icon": "/assets/Faculites_icon/graduation-hat-alt-1-svgrepo-com.svg",
+    "icon": "Faculites_icon/graduation-hat-alt-1-svgrepo-com.svg",
     "Flinks": [
       {
         "name": "Website",

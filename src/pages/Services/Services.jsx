@@ -3,25 +3,24 @@ import './Services.css';
 import faculty from '../../data/faculties.json';
 function Services() {
   return (
-    <div className="services-container">
-    {faculty.map((item) => (
+    <div>
+      <div className="faculty-container">
+      <h1 className="title">Choose a Faculty</h1>
     <div className="button-container">
-      <button className="brutalist-button openai">
+    {faculty.map((item) => (
+      <button className="brutalist-button">
         <div className="logo">
-          {item.icon && (
             <img
               src={item.icon}
-              className="icon"
+              className="icon" style={{ color : '#1c274c' }}
             />
-          )}
         </div>
         <div className="button-text">
           <span>{item.name}</span>
         </div>
       </button>
-    </div>
     ))}
-
+    </div></div>   
     </div>
   );
 }
