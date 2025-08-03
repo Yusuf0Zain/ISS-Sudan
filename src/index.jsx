@@ -10,10 +10,12 @@ createRoot(document.getElementById('root')).render(
     
       <App />
       <div className="license">
+
         <h1>ISS SUDAN UTM</h1>
         <p>Official Website for the International Student Society of Sudan at UTM</p>
         <p>© 2025 ISS-Sudan | All Rights Reserved</p>
         <img className="inline-block mr-2 align-middle logo-img" src="/logoW.png"/>
+
         <br />
         <br />
         <br />

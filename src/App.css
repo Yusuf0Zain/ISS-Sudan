@@ -41,6 +41,34 @@
     background-position: 0% 50%;
   }
 }
+.container::after{
+  content: '';
+  bottom: 120%;
+  left: 0;
+  width: 100%;
+  height: 2rem;
+  display: block;
+  background: linear-gradient(
+    -45deg, transparent 33.33%,
+    #08274c 33.33%, #08274c 66.666%,
+    transparent 66.66%
+  ),
+  linear-gradient(
+    45deg, transparent 33.33%,
+    #08274c 33.33%, #08274c 66.66%,
+    transparent 66.66%
+  );
+  background-size: 3rem 6rem;
+  animation: sonicZigzag 1s linear infinite;
+}
+@keyframes sonicZigzag {
+  0% {
+    background-position: 0 0, 3rem 0;
+  }
+  100% {
+    background-position: 3rem 0, 6rem 0;
+  }
+}
 
 .main-content {
   padding-top: 100px; /* Adjust this value to match your header height */

@@ -10,6 +10,7 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -35,6 +36,8 @@ header {
 }
 
 .license {
+  position: relative;
+  z-index: 1;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -71,3 +74,4 @@ header {
     padding: 1rem 0.2rem;
   }
 }
+
