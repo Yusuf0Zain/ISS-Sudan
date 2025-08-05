@@ -81,7 +81,7 @@ const StyledWrapper = styled.div`
     background-color: #e3d8b3;
     position: relative;
     display: flex;
-    box-shadow: #282c34 0rem .5rem .5rem;
+    box-shadow: 4px 4px 0px #282c34;
     justify-content: center;
     border-radius: 15px;
   } 

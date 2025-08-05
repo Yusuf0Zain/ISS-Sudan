@@ -2,22 +2,22 @@
   {
     "id": 1,
     "name": "WhatsApp",
-    "url": "-",
-    "icon": "-",
-    "color": "bg-green-500"
+    "url": "https://chat.whatsapp.com/ByVpyYYvpXL24nnd00N7yi",
+    "icon": "Social/whatsapp-svgrepo-com.svg",
+    "color": "bg-gradient-to-br from-#06db29 to-#6efa9a"
   },
   {
     "id": 2,
     "name": "Instagram",
-    "url": "-",
-    "icon": "-",
-    "color": "bg-pink-500"
+    "url": "https://www.instagram.com/iss_sudan?igsh=MXAzZGk4Z3QzcHA1Zw==&utm_source=ig_contact_invite",
+    "icon": "Social/instagram-167-svgrepo-com.svg",
+    "color": "bg-gradient-to-br from-#fdc100 to-#810bfd"
   },
   {
     "id": 3,
     "name": "TikTok",
-    "url": "-",
-    "icon": "-",
-    "color": "bg-black"
+    "url": "https://www.tiktok.com/@iss_sudan?_t=ZM-8uEkPflCD8n&_r=1",
+    "icon": "Social/tiktok-svgrepo-com.svg",
+    "color": "bg-gradient-to-br from-#25f4ee to-#fe2c55"
   }
 ]

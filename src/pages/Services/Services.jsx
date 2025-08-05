@@ -3,16 +3,16 @@ import './Services.css';
 import faculty from '../../data/faculties.json';
 function Services() {
   return (
-    <div>
+    <div className="services-container">
       <div className="faculty-container">
-      <h1 className="title">Choose a Faculty</h1>
+      <h1 className="Ftitle">Choose a Faculty</h1>
     <div className="button-container">
     {faculty.map((item) => (
       <button className="brutalist-button">
         <div className="logo">
             <img
               src={item.icon}
-              className="icon" style={{ color : '#1c274c' }}
+              className="icon"
             />
         </div>
         <div className="button-text">
@@ -20,7 +20,11 @@ function Services() {
         </div>
       </button>
     ))}
-    </div></div>   
+    </div>
+    </div>
+    <div>
+      <h1 className="Ftitle">Helping Hand</h1>
+    </div>
     </div>
   );
 }

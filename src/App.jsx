@@ -6,10 +6,11 @@ import Services from './pages/Services/Services'
 import Gallery from './pages/Gallery/Gallery'
 import About from './pages/AboutUs/About'
 import './App.css'
-import Links from './components/links'
+import Links from './components/links.jsx'
 function App() {
   return (
     <div className="container">
+      <Links />
       <div className="header">
         <div className="header-left">
           <span className="header-title">

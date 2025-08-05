@@ -1,5 +1,61 @@
 {
-  "topMembers": [
+  "TopMembers": [
+    {
+      "id": 1,
+      "name": "-",
+      "position": "-",
+      "image": "/placeholder.svg?height=200&width=200"
+    }
+  ],
+  "Logistic": [
+    {
+      "id": 1,
+      "name": "-",
+      "position": "-",
+      "image": "/placeholder.svg?height=200&width=200"
+    }
+  ],
+  "Media": [
+    {
+      "id": 1,
+      "name": "-",
+      "position": "-",
+      "image": "/placeholder.svg?height=200&width=200"
+    }
+  ],
+  "Social": [
+    {
+      "id": 1,
+      "name": "-",
+      "position": "-",
+      "image": "/placeholder.svg?height=200&width=200"
+    }
+  ],
+  "Woman": [
+    {
+      "id": 1,
+      "name": "-",
+      "position": "-",
+      "image": "/placeholder.svg?height=200&width=200"
+    }
+  ],
+  "Student": [
+    {
+      "id": 1,
+      "name": "-",
+      "position": "-",
+      "image": "/placeholder.svg?height=200&width=200"
+    }
+  ],
+  "Academic": [
+    {
+      "id": 1,
+      "name": "-",
+      "position": "-",
+      "image": "/placeholder.svg?height=200&width=200"
+    }
+  ],
+  "Sports": [
     {
       "id": 1,
       "name": "-",

@@ -1,7 +1,14 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Adjust this value to increase or decrease space between buttons */
+  gap: 20px;
   padding: 20px;
 }
 .faculty-container {
@@ -89,6 +96,8 @@
   border-radius: 50%;
   transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  animation: spin 5s linear infinite;
+  animation-play-state: paused;
 }
 
 .logo {
@@ -114,10 +123,19 @@
 }
 
 .brutalist-button:hover .logo {
-  animation: spin 5s linear infinite;
+  animation-play-state: running;
   width: 50px;
   height: 50px;
   top: 28%;
+}
+
+.brutalist-button .logo {
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.brutalist-button:not(:hover) .logo {
+  animation: none;
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .brutalist-button:hover .icon {
@@ -163,10 +181,10 @@
   }
 }
 
-.title{
+.Ftitle{
     text-align: center;
     font-size: 4rem;
     margin-bottom: 20px;
     color: #ffffff;
-    text-shadow: #282c34 0px 4px 4px;
+    text-shadow: #282c34 4px 4px 0px;
 }

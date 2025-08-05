@@ -77,7 +77,6 @@
 .header {
   position: fixed;
   z-index: 1000;
-  text-shadow: #282c34 0px 4px 4px;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
@@ -100,6 +99,7 @@
 }
 
 .header-left {
+  text-shadow: #282c34 4px 4px 0px;
   flex: 1;
   justify-content: flex-start;
 }
@@ -124,7 +124,7 @@
   font-size: 3rem;
   font-weight: bold;
   margin-left: 0.5rem;
-  color: #ffdd05;
+  color: #04914c;
 }
 
 .header-action {
