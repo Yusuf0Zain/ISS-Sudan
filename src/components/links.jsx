@@ -17,7 +17,7 @@ const Button = () => {
 
       <ToggleButton onClick={() => setIsOpen(!isOpen)} isOpen={isOpen}>
         <svg viewBox="0 0 24 24" width="24" height="24">
-          <path fill="currentColor" d={isOpen ? "M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" : "M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"} />
+          <path fill="#1c274c" d={isOpen ? "M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" : "M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"} />
         </svg>
       </ToggleButton>
 
@@ -58,8 +58,7 @@ const StyledWrapper = styled.div`
 `;
 
 const ToggleButton = styled.button`
-  background: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px);
+  background: #e3d8b3;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -72,7 +71,7 @@ const ToggleButton = styled.button`
   color: white;
   
   &:hover {
-    background: rgba(0, 0, 0, 0.3);
+    background: #e3d8b3;
     transform: scale(1.1);
   }
 
@@ -85,8 +84,7 @@ const ButtonsContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 15px;
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px);
+  background-color: #1c274c;
   border-radius: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 15px;
@@ -112,21 +110,24 @@ const SocialLink = styled.a`
   cursor: pointer;
   transition: all 0.3s ease-out;
   clip-path: url(#squircleClip);
-  background: rgba(255, 255, 255, 0.1);
+  background: #e3d8b3;
   
   &:hover {
     transform: scale(1.1) translateY(-3px);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     background: ${({ fromColor, toColor }) => 
       `linear-gradient(to bottom right, ${fromColor}, ${toColor})`};
+    
+    img {
+      filter: brightness(0) invert(1);
+    }
   }
 `;
 
 const SocialIcon = styled.img`
   width: 24px;
   height: 24px;
-  filter: brightness(0) invert(1);
-  transition: all 0.3s ease;
+  transition: filter 0.3s ease;
 `;
 
 export default Button;
