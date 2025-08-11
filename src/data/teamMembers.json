@@ -2,65 +2,144 @@
   "TopMembers": [
     {
       "id": 1,
-      "name": "-",
-      "position": "-",
-      "image": "/placeholder.svg?height=200&width=200"
+      "name": "bob",
+      "position": "President",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
+    },
+    {
+      "id": 2,
+      "name": "martin",
+      "position": "Vice President",
+      "icon": "Faculites_icon/bolt-svgrepo-com.svg",
+      "image": "members/images.jfif"
+    },
+    {
+      "id": 3,
+      "name": "jax",
+      "position": "General Secretary",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
+    },
+    {
+      "id": 4,
+      "name": "pomni",
+      "position": "Treasurer",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
     }
+    
   ],
   "Logistic": [
     {
       "id": 1,
-      "name": "-",
-      "position": "-",
-      "image": "/placeholder.svg?height=200&width=200"
+      "name": "doe",
+      "position": "Head of Logistic Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
+    },
+    {
+      "id": 2,
+      "name": "john",
+      "position": "Deputy of Logistic Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
     }
   ],
   "Media": [
     {
       "id": 1,
-      "name": "-",
-      "position": "-",
-      "image": "/placeholder.svg?height=200&width=200"
+      "name": "mario",
+      "position": "Head of Media Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
+    },
+    {
+      "id": 2,
+      "name": "luigi",
+      "position": "Deputy of Media Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
     }
   ],
   "Social": [
     {
       "id": 1,
-      "name": "-",
-      "position": "-",
-      "image": "/placeholder.svg?height=200&width=200"
+      "name": "sonic",
+      "position": "Head of Social Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
+    },
+    {
+      "id": 2,
+      "name": "tails",
+      "position": "Deputy of Social Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
     }
   ],
   "Woman": [
     {
       "id": 1,
-      "name": "-",
-      "position": "-",
-      "image": "/placeholder.svg?height=200&width=200"
+      "name": "dante",
+      "position": "Head of Women Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
+    },
+    {
+      "id": 2,
+      "name": "vergil",
+      "position": "Deputy of Women Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
     }
   ],
   "Student": [
     {
       "id": 1,
-      "name": "-",
-      "position": "-",
-      "image": "/placeholder.svg?height=200&width=200"
+      "name": "Walter",
+      "position": "Head of Student Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
+    },
+    {
+      "id": 2,
+      "name": "Jesse",
+      "position": "Deputy of Student Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
     }
   ],
   "Academic": [
     {
       "id": 1,
-      "name": "-",
-      "position": "-",
-      "image": "/placeholder.svg?height=200&width=200"
+      "name": "Kris",
+      "position": "Head of Academic Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
+    },
+    {
+      "id": 2,
+      "name": "Susie",
+      "position": "Deputy of Academic Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
     }
   ],
   "Sports": [
     {
       "id": 1,
-      "name": "-",
-      "position": "-",
-      "image": "/placeholder.svg?height=200&width=200"
+      "name": "Captin Majid",
+      "position": "Head of Sports Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
+    },
+    {
+      "id": 2,
+      "name": "Captin Ahmed",
+      "position": "Deputy of Sports Committee",
+      "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+      "image": "members/images.jfif"
     }
   ]
 }

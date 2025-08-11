@@ -74,6 +74,7 @@ const ToggleButton = styled.button`
     background: #e3d8b3;
     transform: scale(1.1);
   }
+    
 
   ${({ isOpen }) => isOpen && css`
     transform: rotate(180deg);

@@ -3,13 +3,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh; /* Changed from height to min-height for better mobile behavior */
+  padding: 20px 0; /* Added padding for mobile */
 }
 .button-container {
   display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  width: 100%; /* Full width for better grid behavior */
 }
 .faculty-container {
   display: flex;
@@ -26,6 +29,8 @@
 }
 
 .brutalist-button {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,11 +45,8 @@
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   height: 130px;
   width: 130px;
-  cursor: pointer;
-}
-
-.brutalist-button {
   background-color: #1c274c;
+  cursor: pointer;
 }
 
 .brutalist-button::before {
@@ -57,12 +59,10 @@
   border-radius: 50%;
   transform: translateX(-50%) scale(0);
   transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  background-color: #085d92;
   z-index: 1;
 }
 
-.brutalist-button::before {
-  background-color: #085d92;
-}
 
 .brutalist-button.claude::before {
   background-color: #e3d19c;
@@ -98,14 +98,12 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   animation: spin 5s linear infinite;
   animation-play-state: paused;
-}
-
-.logo {
-  align-items: center;
   justify-content: center;
   background-color: #e3d8b3;
   border-radius: 50%;
 }
+
+
 
 .icon {
   width: 54px;
@@ -133,7 +131,8 @@
   transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.brutalist-button:not(:hover) .logo {
+.brutalist-button:not(:hover) .logo,
+.helping-button:not(:hover) .helping-logo {
   animation: none;
   transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -149,6 +148,7 @@
   line-height: 1.3;
   transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   text-align: center;
+  text-shadow: #282c34 0px 3px 0px;
   opacity: 0;
   transform: translateY(20px);
   z-index: 2;
@@ -161,17 +161,16 @@
 .button-text span {
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.9px;
 }
 
 .brutalist-button:hover .button-text {
   opacity: 1;
   transform: translateY(0);
+  color: #ffffff;
 }
 
-.brutalist-button:hover .button-text {
-  color: #d3d3d3;
-}
+
 
 
 @media (hover: hover) and (pointer: fine) {
@@ -187,4 +186,159 @@
     margin-bottom: 20px;
     color: #ffffff;
     text-shadow: #282c34 4px 4px 0px;
+}
+
+.helping-button{
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #e3d8b3;
+  border-radius: 12px;
+  padding: 0;
+  position: relative;
+  box-shadow: 4px 4px 0px #000000;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  height: 10rem;
+  width: 30rem;
+  background-color: #1c274c;
+}
+
+.button-text-help {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.3;
+  text-shadow: #282c34 0px 3px 0px;
+  color:#e3d19c;
+  font-size: 1.5rem;
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: relative;
+  z-index: 1;
+  left: 0;
+  right: 10%;
+}
+.helping-description {
+  font-size: 1rem;
+  color: #282c34;
+  opacity: 0;
+  top: 20px;
+  position: absolute;
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+}
+.helping-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  animation: spin 5s linear infinite;
+  animation-play-state: paused;
+  justify-content: center;
+  background-color: #e3d8b3;
+  color: black;
+  border-radius: 50%;
+}
+
+.helping-button:hover .helping-logo {
+  animation-play-state: running;
+  scale: 1.5;
+  left: 5%;
+  top: 65%;
+}
+.helping-button:hover .button-text-help {
+  transform: scale(1.2) ;
+  font-size: 2.5rem;
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #ffffff;
+}
+.helping-button:hover .helping-description {
+  opacity: 1;
+  transform: translateY(5rem);
+}
+
+.helping-button::before {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: -150%;
+  width: 300%;
+  height: 300%;
+  border-radius: 50%;
+  transform: translateX(-50%) scale(0);
+  transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  background-color: #085d92;
+  z-index: 0;
+}
+.helping-button:hover::before {
+  transform: translateX(-50%) scale(1);
+}
+@media (max-width: 768px) {
+  .services-container {
+    height: auto; /* Adjust height for mobile */
+    padding: 40px 0; /* More padding on mobile */
+  }
+
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 15px;
+    padding: 15px;
+    width: 100%;
+    max-width: 400px; /* Prevents buttons from getting too wide */
+    margin: 0 auto;
+  }
+
+  .brutalist-button {
+    width: 100%; /* Full width of grid cell */
+    height: 120px; /* Slightly smaller for mobile */
+    font-size: 1rem; /* Adjust font size */
+  }
+
+  .Ftitle {
+    font-size: 2.5rem; /* Smaller title on mobile */
+    margin-bottom: 15px;
+  }
+
+  .logo {
+    width: 70px; /* Smaller logo for mobile */
+    height: 70px;
+  }
+
+  .icon {
+    width: 40px; /* Smaller icon for mobile */
+    height: 40px;
+  }
+
+  .brutalist-button:hover .logo {
+    top: 25%; /* Adjust hover position for mobile */
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .button-container {
+    grid-template-columns: 1fr; /* Single column on very small screens */
+    max-width: 300px;
+    gap: 12px;
+  }
+
+  .brutalist-button {
+    height: 110px;
+  }
+
+  .Ftitle {
+    font-size: 2rem;
+  }
 }

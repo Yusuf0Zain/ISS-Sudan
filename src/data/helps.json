@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "Name": "Locations",
+        "route": "/locations",
+        "description": "Find your way around the campus and outside.",
+        "icon": "services_icon/location-pin-svgrepo-com.svg"
+    },
+    {
+        "id": 2,
+        "Name": "Residence",
+        "route": "/residence",
+        "description": "Explore the various residence options available.",
+        "icon": "services_icon/house-user-svgrepo-com.svg"
+    },
+    {
+        "id": 3,
+        "Name": "Transportation",
+        "route": "/transportation",
+        "description": "Get information on transportation services.",
+        "icon": "services_icon/car-svgrepo-com.svg"
+    },
+    {
+        "id": 4,
+        "Name": "Clubs",
+        "route": "/clubs",
+        "description": "Join various clubs and societies.",
+        "icon": "services_icon/group-svgrepo-com.svg"
+    }
+]

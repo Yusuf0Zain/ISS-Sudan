@@ -35,7 +35,6 @@
   left: 0;
   width: 100%;
   padding: 2rem 1rem 2rem;
-  color: white;
   font: 1.2rem;
 }
 .about-image {
@@ -59,6 +58,7 @@
   width: 190px;
   height: 289px;
   perspective: 1000px;
+  margin: 10px;
 }
 
 .title {
@@ -103,4 +103,92 @@
   image-rendering: pixelated;
   background-size: cover;
   transform: rotateY(180deg);
+}
+
+
+.Cards{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.flip-card-front img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.Micon{
+  margin-bottom: 2rem;
+  display: block;
+}
+.team-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.committee-button {
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #e3d8b3;
+  border-radius: 12px;
+  padding: 0;
+  position: relative;
+  box-shadow: 4px 4px 0px #000000;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  height: 80px;
+  width: 150px;
+  cursor: pointer;
+  background-color: #1c274c;
+  color: #e3d8b3;
+  font-size: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.committee-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 6px 6px 0px #000000;
+}
+
+
+
+@media (max-width: 768px) {
+  .team-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 15px;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .committee-button {
+    width: 100%; /* Full width of grid cell */
+    height: 100px;
+    font-size: 1.2rem;
+    margin: 0; /* Remove any margins */
+  }
+}
+
+@media (max-width: 480px) {
+  .team-buttons {
+    grid-template-columns: repeat(2, 1fr); /* Keep 2 columns for very small phones */
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .committee-button {
+    height: 80px;
+    font-size: 1rem;
+  }
 }
