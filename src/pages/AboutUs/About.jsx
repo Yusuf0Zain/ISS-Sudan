@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import './About.css';
 import MovingPattern from '../../components/MovingPattern.jsx';
 import teamMembers from '../../data/teamMembers.json';

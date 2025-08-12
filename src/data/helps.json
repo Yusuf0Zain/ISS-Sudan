@@ -4,27 +4,87 @@
         "Name": "Locations",
         "route": "/locations",
         "description": "Find your way around the campus and outside.",
-        "icon": "services_icon/location-pin-svgrepo-com.svg"
+        "icon": "services_icon/location-pin-svgrepo-com.svg",
+        "resources": [
+            {
+                "id": 1,
+                "category": "Skudai",
+                "items": [
+                    {
+                    "id": 1,
+                    "name": "Test 1",
+                    "description": "A detailed map of the campus.",
+                    "link": "https://tenor.com/tnEPzrEFsEY.gif",
+                    "img": "Faculites_icon/desktop-computer-svgrepo-com.svg"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 2,
         "Name": "Residence",
         "route": "/residence",
         "description": "Explore the various residence options available.",
-        "icon": "services_icon/house-user-svgrepo-com.svg"
+        "icon": "services_icon/house-user-svgrepo-com.svg",
+        "resources": [
+            {
+                "id": 1,
+                "category": "Hostels",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "Hostel A",
+                        "description": "Details about Hostel A.",
+                        "link": "https://example.com/hostel-a",
+                        "img": "Faculites_icon/desktop-computer-svgrepo-com.svg"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 3,
         "Name": "Transportation",
         "route": "/transportation",
         "description": "Get information on transportation services.",
-        "icon": "services_icon/car-svgrepo-com.svg"
+        "icon": "services_icon/car-svgrepo-com.svg",
+        "resources": [
+            {
+                "id": 1,
+                "category": "Buses",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "Bus Schedule",
+                        "description": "Timings and routes for campus buses.",
+                        "link": "https://example.com/bus-schedule",
+                        "img": "Faculites_icon/desktop-computer-svgrepo-com.svg"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 4,
         "Name": "Clubs",
         "route": "/clubs",
         "description": "Join various clubs and societies.",
-        "icon": "services_icon/group-svgrepo-com.svg"
+        "icon": "services_icon/group-svgrepo-com.svg",
+        "resources": [
+            {
+                "id": 1,
+                "category": "Cultural Clubs",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "Drama Club",
+                        "description": "Participate in drama and theater activities.",
+                        "link": "https://example.com/drama-club",
+                        "img": "Faculites_icon/desktop-computer-svgrepo-com.svg"
+                    }
+                ]
+            }
+        ]
     }
 ]

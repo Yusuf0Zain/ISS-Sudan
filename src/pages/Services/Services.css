@@ -4,28 +4,86 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh; /* Changed from height to min-height for better mobile behavior */
-  padding: 20px 0; /* Added padding for mobile */
+  padding: 10px 0;
 }
 .button-container {
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  flex-wrap: wrap; 
   justify-content: center;
   gap: 20px;
   padding: 20px;
-  width: 100%; /* Full width for better grid behavior */
+  width: 100%;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .faculty-container {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 85vh;
   background: linear-gradient(#3f87a6 10%, #ebf8e1a2 10%),
     linear-gradient(to right, #ebf8e1 10%, #c73030 10% 10.2%, #ebf8e1 10.5%);
   background-size: 100% 25px, 100% 100%;
   background-repeat: repeat, no-repeat;
   box-shadow: 4px 4px 0px #000000;
-  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.faculty-container.active .button-container {
+  transform: translateX(60%);
+  scale: 0.8;
+}
+.brutalist-button.active {
+  background-color: #085d92;
+}
+.brutalist-button.active .logo {
+  animation: spin 5s linear infinite;
+}
+
+.faculty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.faculty-details{
+  position: absolute;
+  left: -100%;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #1c274c;
+  z-index:0;
+  padding-left: 10px; 
+  overflow: visible;
+  transition: all 0.5s ease-in-out;
+}
+.faculty-container.active .faculty-details {
+  left: 0;
+}
+.faculty-details::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -2rem;
+  width: 2rem; 
+  height: 100%;
+  background: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" preserveAspectRatio="none" viewBox="0 0 20 20"> <polygon points="0,0 20,10 0,20" fill="%231c274c" /></svg>') repeat-y;
+  background-repeat: repeat-y;
+  background-size: 2rem 2rem;
+  animation: sonicZigzagV 0.5s linear infinite;
+}
+@keyframes sonicZigzagV {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 2rem;
+  }
 }
 
 .brutalist-button {
@@ -42,7 +100,7 @@
   position: relative;
   box-shadow: 4px 4px 0px #000000;
   overflow: hidden;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   height: 130px;
   width: 130px;
   background-color: #1c274c;
@@ -58,7 +116,7 @@
   height: 300%;
   border-radius: 50%;
   transform: translateX(-50%) scale(0);
-  transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   background-color: #085d92;
   z-index: 1;
 }
@@ -94,7 +152,7 @@
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   animation: spin 5s linear infinite;
   animation-play-state: paused;
@@ -108,7 +166,7 @@
 .icon {
   width: 54px;
   height: 54px;
-  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 @keyframes spin {
@@ -128,13 +186,14 @@
 }
 
 .brutalist-button .logo {
-  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .brutalist-button:not(:hover) .logo,
-.helping-button:not(:hover) .helping-logo {
+.helping-button:not(:hover) .helping-logo
+{
   animation: none;
-  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .brutalist-button:hover .icon {
@@ -146,7 +205,7 @@
   flex-direction: column;
   align-items: center;
   line-height: 1.3;
-  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   text-align: center;
   text-shadow: #282c34 0px 3px 0px;
   opacity: 0;
@@ -186,6 +245,10 @@
     margin-bottom: 20px;
     color: #ffffff;
     text-shadow: #282c34 4px 4px 0px;
+    transition: opacity 0.5s;
+}
+.faculty-container.active .Ftitle {
+  opacity: 0;
 }
 
 .helping-button{
@@ -200,7 +263,7 @@
   position: relative;
   box-shadow: 4px 4px 0px #000000;
   overflow: hidden;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   height: 10rem;
   width: 30rem;
   background-color: #1c274c;
@@ -213,7 +276,7 @@
   text-shadow: #282c34 0px 3px 0px;
   color:#e3d19c;
   font-size: 1.5rem;
-  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   position: relative;
   z-index: 1;
   left: 0;
@@ -225,7 +288,7 @@
   opacity: 0;
   top: 20px;
   position: absolute;
-  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
 }
 .helping-logo {
@@ -240,7 +303,7 @@
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   animation: spin 5s linear infinite;
   animation-play-state: paused;
@@ -259,7 +322,7 @@
 .helping-button:hover .button-text-help {
   transform: scale(1.2) ;
   font-size: 2.5rem;
-  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   color: #ffffff;
 }
 .helping-button:hover .helping-description {
@@ -276,7 +339,7 @@
   height: 300%;
   border-radius: 50%;
   transform: translateX(-50%) scale(0);
-  transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   background-color: #085d92;
   z-index: 0;
 }

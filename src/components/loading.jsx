@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Loader = () => {
   return (
     <StyledWrapper>
-      <div className="container">
+      <div className="loader">
         <span />
         <span />
         <span />
@@ -22,10 +22,10 @@ const StyledWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background */
+  background-color: hsla(38, 100%, 65%, 0.49); /* Optional: semi-transparent background */
   z-index: 9999; /* Ensure it appears above other content */
 
-  .container {
+  .loader {
     position: relative;
     border-radius: 50%;
     height: 96px;
@@ -35,7 +35,7 @@ const StyledWrapper = styled.div`
     background-image: linear-gradient(#CB0000, #FFC700, #c79c00);
   }
 
-  .container span {
+  .loader span {
     position: absolute;
     border-radius: 50%;
     height: 100%;
@@ -44,30 +44,30 @@ const StyledWrapper = styled.div`
     background-image: linear-gradient(#ff0000, #ffc800, #ffc800);
   }
 
-  .container span:nth-of-type(1) {
+  .loader span:nth-of-type(1) {
     filter: blur(5px);
   }
 
-  .container span:nth-of-type(2) {
+  .loader span:nth-of-type(2) {
     filter: blur(10px);
   }
 
-  .container span:nth-of-type(3) {
+  .loader span:nth-of-type(3) {
     filter: blur(25px);
   }
 
-  .container span:nth-of-type(4) {
+  .loader span:nth-of-type(4) {
     filter: blur(50px);
   }
 
-  .container::after {
+  .loader::after {
     content: "";
     position: absolute;
     top: 10px;
     left: 10px;
     right: 10px;
     bottom: 10px;
-    background-color: #fff;
+    background-color: #ffffffff;
     border: solid 5px #ffffff;
     border-radius: 50%;
   }
