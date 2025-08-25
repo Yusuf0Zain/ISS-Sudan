@@ -3,43 +3,44 @@
     "id": 1,
     "name": "Software Engineering",
     "icon": "Faculites_icon/desktop-computer-svgrepo-com.svg",
+    "folder": "computer",
     "Flinks": [
       {
         "name": "Website",
-        "url": "-",
-        "icon": "-"
+        "url": "https://comp.utm.my",
+        "icon": "Social/web-svgrepo-com.svg"
       },
       {
         "name": "Location",
         "url": "-",
-        "icon": "-"
+        "icon": "services_icon/location-pin-svgrepo-com.svg"
       },
       {
         "name": "Email",
-        "url": "-",
-        "icon": "-"
+        "url": "computing@utm.my",
+        "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
       "Slinks": [
       {
         "name": "Drive",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
   }
@@ -47,43 +48,44 @@
     "id": 2,
     "name": "Electrical Engineering",
     "icon": "Faculites_icon/bolt-svgrepo-com.svg",
+    "folder": "electric",
     "Flinks": [
       {
         "name": "Website",
-        "url": "-",
-        "icon": "-"
+        "url": "https://fke.utm.my",
+        "icon": "Social/web-svgrepo-com.svg"
       },
       {
         "name": "Location",
         "url": "-",
-        "icon": "-"
+        "icon": "services_icon/location-pin-svgrepo-com.svg"
       },
       {
         "name": "Email",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
   }
@@ -91,43 +93,44 @@
     "id": 3,
     "name": "Civil Engineering",
     "icon": "Faculites_icon/building-svgrepo-com.svg",
+    "folder": "civil",
     "Flinks": [
       {
         "name": "Website",
-        "url": "-",
-        "icon": "-"
+        "url": "https://civil.utm.my",
+        "icon": "Social/web-svgrepo-com.svg"
       },
       {
         "name": "Location",
         "url": "-",
-        "icon": "-"
+        "icon": "services_icon/location-pin-svgrepo-com.svg"
       },
       {
         "name": "Email",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
   }
@@ -135,43 +138,44 @@
     "id": 4,
     "name": "Mechanical Engineering",
     "icon": "Faculites_icon/engine-warning-svgrepo-com.svg",
+    "folder": "mechanic",
     "Flinks": [
       {
         "name": "Website",
-        "url": "-",
-        "icon": "-"
+        "url": "mech.utm.my",
+        "icon": "Social/web-svgrepo-com.svg"
       },    
       {
         "name": "Location",
         "url": "-",
-        "icon": "-"
+        "icon": "services_icon/location-pin-svgrepo-com.svg"
       },
       {
         "name": "Email",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
   }
@@ -179,43 +183,44 @@
     "id": 5,
     "name": "Chemical Engineering",
     "icon": "Faculites_icon/vial-svgrepo-com.svg",
+    "folder": "chemical",
     "Flinks": [
       {
         "name": "Website",
-        "url": "-",
-        "icon": "-"
+        "url": "fkt.utm.my",
+        "icon": "Social/web-svgrepo-com.svg"
       },
       {
         "name": "Location",
         "url": "-",
-        "icon": "-"
+        "icon": "services_icon/location-pin-svgrepo-com.svg"
       },
       {
         "name": "Email",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
   }
@@ -223,43 +228,44 @@
     "id": 6,
     "name": "Biomedical Engineering",
     "icon": "Faculites_icon/dna-svgrepo-com.svg",
+    "folder": "biomedical",
     "Flinks": [
       {
         "name": "Website",
-        "url": "-",
-        "icon": "-"
+        "url": "https://fke.utm.my/biomedical",
+        "icon": "Social/web-svgrepo-com.svg"
       },
       {
         "name": "Location",
         "url": "-",
-        "icon": "-"
+        "icon": "services_icon/location-pin-svgrepo-com.svg"
       },
       {
         "name": "Email",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
   }
@@ -267,43 +273,44 @@
     "id": 7,
     "name": "Business & Management",
     "icon": "Faculites_icon/chart-line-svgrepo-com.svg",
+    "folder": "business",
     "Flinks": [
       {
         "name": "Website",
-        "url": "-",
-        "icon": "-"
+        "url": "business.utm.my",
+        "icon": "Social/web-svgrepo-com.svg"
       },
       {
         "name": "Location",
         "url": "-",
-        "icon": "-"
+        "icon": "services_icon/location-pin-svgrepo-com.svg"
       },
       {
         "name": "Email",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
   }
@@ -311,43 +318,44 @@
     "id": 8,
     "name": "Bridging & Foundation",
     "icon": "Faculites_icon/graduation-hat-alt-1-svgrepo-com.svg",
+    "folder": "bridging",
     "Flinks": [
       {
         "name": "Website",
-        "url": "-",
-        "icon": "-"
+        "url": "https://space.utm.my/foundation",
+        "icon": "Social/web-svgrepo-com.svg"
       },
       {
         "name": "Location",
         "url": "-",
-        "icon": "-"
+        "icon": "services_icon/location-pin-svgrepo-com.svg"
       },
       {
         "name": "Email",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
         "url": "-",
-        "icon": "-"
+        "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
   }

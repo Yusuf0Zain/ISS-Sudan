@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "Name": "Locations",
+        "Name": "Academic Visas",
         "route": "/locations",
         "description": "Find your way around the campus and outside.",
         "icon": "services_icon/location-pin-svgrepo-com.svg",
@@ -23,7 +23,7 @@
     },
     {
         "id": 2,
-        "Name": "Residence",
+        "Name": "Health Insurance",
         "route": "/residence",
         "description": "Explore the various residence options available.",
         "icon": "services_icon/house-user-svgrepo-com.svg",
@@ -45,7 +45,7 @@
     },
     {
         "id": 3,
-        "Name": "Transportation",
+        "Name": "University Services",
         "route": "/transportation",
         "description": "Get information on transportation services.",
         "icon": "services_icon/car-svgrepo-com.svg",
@@ -67,7 +67,7 @@
     },
     {
         "id": 4,
-        "Name": "Clubs",
+        "Name": "Student Activities",
         "route": "/clubs",
         "description": "Join various clubs and societies.",
         "icon": "services_icon/group-svgrepo-com.svg",
@@ -87,4 +87,6 @@
             }
         ]
     }
+    
+
 ]
