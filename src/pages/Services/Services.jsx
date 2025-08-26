@@ -3,18 +3,54 @@ import { useState, useEffect, useRef } from 'react';
 import faculty from '../../data/faculties.json';
 import helps from '../../data/helps.json';
 
+// Import all guide components
+import Visas from './guides/visas';
+import Health from './guides/health';
+import UniversityServices from './guides/services';
+import Activities from './guides/activities';
+import City from './guides/city';
+import Housing from './guides/housing';
+import Mental from './guides/mental';
+import Contacts from './guides/contacts';
+import FAQ from './guides/faq';
+
 const imageContext = require.context('../../assets/faculty/', true, /\.png$/);
+
+// Component mapping
+const guideComponents = {
+  1: Visas,
+  2: Health,
+  3: UniversityServices,
+  4: Activities,
+  5: City,
+  6: Housing,
+  7: Mental,
+  8: Contacts,
+  9: FAQ
+};
 
 function Services() {
   const [activeIndex, setActiveIndex] = useState(null);
   const [animateCircles, setAnimateCircles] = useState(false);
   const [visibleCircles, setVisibleCircles] = useState(false);
   const prevActiveIndexRef = useRef(null);
+  const [selectedGuide, setSelectedGuide] = useState(null);
+  const [loadingGuide, setLoadingGuide] = useState(false);
 
   const handleButtonClick = (index) => {
     prevActiveIndexRef.current = activeIndex;
     setActiveIndex(index === activeIndex ? null : index);
     setVisibleCircles(false);
+  };
+
+  const handleGuideClick = (guide) => {
+    setLoadingGuide(true);
+    
+    // Simulate loading delay for better UX
+    setTimeout(() => {
+      setSelectedGuide(guide);
+      setLoadingGuide(false);
+    }, 0);
   };
 
   useEffect(() => {
@@ -26,7 +62,7 @@ function Services() {
       const animationTimer = setTimeout(() => {
         setVisibleCircles(true);
         setAnimateCircles(false);
-      }, 1000); // Slightly longer than animation duration
+      }, 1000);
       
       return () => clearTimeout(animationTimer);
     } else if (activeIndex === null) {
@@ -35,6 +71,9 @@ function Services() {
       setAnimateCircles(false);
     }
   }, [activeIndex]);
+
+  // Get the appropriate component based on selected guide ID
+  const GuideComponent = selectedGuide ? guideComponents[selectedGuide.id] : null;
 
   return (
     <div className="services-container">
@@ -110,7 +149,6 @@ function Services() {
               <button
                 key={index}
                 className={`brutalist-button ${activeIndex === index ? 'active' : ''}`}
-                onClick={() => handleButtonClick(index)}
               >
                 <div className="logo">
                   <img src={item.icon} className="icon" alt={item.name} />
@@ -124,11 +162,15 @@ function Services() {
         </div>
       </div>
 
-      <div>
+      <div className="guides-section">
         <h1 className="Ftitle">Student Guide</h1>
         <div className="button-container">
-          {helps.map((item, i) => (
-            <button key={i} className="helping-button">
+          {helps.map((item) => (
+            <button 
+              key={item.id} 
+              className="helping-button"
+              onClick={() => handleGuideClick(item)}
+            >
               <div className="helping-logo">
                 <img src={item.icon} className="icon" alt={item.Name} />
               </div>
@@ -142,6 +184,29 @@ function Services() {
           ))}
         </div>
       </div>
+
+      {/* Popup Modal */}
+      {selectedGuide && (
+        <div className="popup-overlay">
+          <div className="popup-box">
+            {/* Header with Title and Close */}
+            <div className="popup-header">              <button
+                className="close-btn"
+                onClick={() => setSelectedGuide(null)}
+              >
+                ✖
+              </button>
+            </div>
+
+            {/* Scrollable Content */}
+            <div className="popup-content">
+              {
+                GuideComponent && <GuideComponent />
+              }
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -2,91 +2,56 @@
     {
         "id": 1,
         "Name": "Academic Visas",
-        "route": "/locations",
-        "description": "Find your way around the campus and outside.",
-        "icon": "services_icon/location-pin-svgrepo-com.svg",
-        "resources": [
-            {
-                "id": 1,
-                "category": "Skudai",
-                "items": [
-                    {
-                    "id": 1,
-                    "name": "Test 1",
-                    "description": "A detailed map of the campus.",
-                    "link": "https://tenor.com/tnEPzrEFsEY.gif",
-                    "img": "Faculites_icon/desktop-computer-svgrepo-com.svg"
-                    }
-                ]
-            }
-        ]
+        "description": "Information on academic visas for students.",
+        "icon": "services_icon/passport-flight-pass-svgrepo-com.svg"
     },
     {
         "id": 2,
         "Name": "Health Insurance",
-        "route": "/residence",
-        "description": "Explore the various residence options available.",
-        "icon": "services_icon/house-user-svgrepo-com.svg",
-        "resources": [
-            {
-                "id": 1,
-                "category": "Hostels",
-                "items": [
-                    {
-                        "id": 1,
-                        "name": "Hostel A",
-                        "description": "Details about Hostel A.",
-                        "link": "https://example.com/hostel-a",
-                        "img": "Faculites_icon/desktop-computer-svgrepo-com.svg"
-                    }
-                ]
-            }
-        ]
+        "description": "Information on health insurance options for students.",
+        "icon": "services_icon/house-user-svgrepo-com.svg"
     },
     {
         "id": 3,
         "Name": "University Services",
-        "route": "/transportation",
-        "description": "Get information on transportation services.",
-        "icon": "services_icon/car-svgrepo-com.svg",
-        "resources": [
-            {
-                "id": 1,
-                "category": "Buses",
-                "items": [
-                    {
-                        "id": 1,
-                        "name": "Bus Schedule",
-                        "description": "Timings and routes for campus buses.",
-                        "link": "https://example.com/bus-schedule",
-                        "img": "Faculites_icon/desktop-computer-svgrepo-com.svg"
-                    }
-                ]
-            }
-        ]
+        "description": "Information on university services available to students.",
+        "icon": "Faculites_icon/graduation-hat-alt-1-svgrepo-com.svg"
     },
     {
         "id": 4,
         "Name": "Student Activities",
-        "route": "/clubs",
-        "description": "Join various clubs and societies.",
-        "icon": "services_icon/group-svgrepo-com.svg",
-        "resources": [
-            {
-                "id": 1,
-                "category": "Cultural Clubs",
-                "items": [
-                    {
-                        "id": 1,
-                        "name": "Drama Club",
-                        "description": "Participate in drama and theater activities.",
-                        "link": "https://example.com/drama-club",
-                        "img": "Faculites_icon/desktop-computer-svgrepo-com.svg"
-                    }
-                ]
-            }
-        ]
+        "description": "Information on student clubs and organizations.",
+        "icon": "services_icon/group-svgrepo-com.svg"
+    },
+    {
+        "id": 5,
+        "Name": "City Services",
+        "description": "Information on city services available to students.",
+        "icon": "Faculites_icon/building-svgrepo-com.svg"
+    },
+    {
+        "id": 6,
+        "Name": "Student Housing",
+        "description": "Information on student housing options.",
+        "icon": "services_icon/house-user-svgrepo-com.svg"
+    },
+    {
+        "id": 7,
+        "Name": "Mental Wellness",
+        "description": "Information on mental wellness resources available to students.",
+        "icon": "services_icon/mental-health-svgrepo-com.svg"
+    },
+    {
+        "id": 8,
+        "Name": "Emergency Contacts",
+        "description": "Information on emergency contacts available to students.",
+        "icon": "services_icon/phone-svgrepo-com.svg"
+    },
+    {
+        "id": 9,
+        "Name": "FAQs",
+        "description": "Frequently asked questions by students.",
+        "icon": "services_icon/question-circle-svgrepo-com.svg"
     }
-    
 
 ]
