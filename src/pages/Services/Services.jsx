@@ -35,7 +35,7 @@ function Services() {
   const [visibleCircles, setVisibleCircles] = useState(false);
   const prevActiveIndexRef = useRef(null);
   const [selectedGuide, setSelectedGuide] = useState(null);
-  const [loadingGuide, setLoadingGuide] = useState(false);
+  const [setLoadingGuide] = useState(false);
 
   const handleButtonClick = (index) => {
     prevActiveIndexRef.current = activeIndex;
@@ -149,6 +149,7 @@ function Services() {
               <button
                 key={index}
                 className={`brutalist-button ${activeIndex === index ? 'active' : ''}`}
+                onClick={() => handleButtonClick(index)}
               >
                 <div className="logo">
                   <img src={item.icon} className="icon" alt={item.name} />
