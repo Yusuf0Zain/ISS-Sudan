@@ -17,34 +17,34 @@
       },
       {
         "name": "Email",
-        "url": "computing@utm.my",
+        "url": "mailto:computing@utm.my",
         "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
-        "url": "-",
+        "url": "https://t.me/BSc_SECR",
         "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
-      "Slinks": [
+    "Slinks": [
       {
         "name": "Drive",
-        "url": "-",
+        "url": "https://drive.google.com/drive/folders/1EX3pbLOUDDUJOfrvYC90OBl2dii4F1Ws?usp=sharing",
         "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
-        "url": "-",
+        "url": "https://discord.gg/ZAJ73sYmxu",
         "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
-        "url": "-",
+        "url": "https://chat.whatsapp.com/CPT80fghwI8DzmF0X4xvJ4",
         "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
-  }
-  ,{
+  },
+  {
     "id": 2,
     "name": "Electrical Engineering",
     "icon": "Faculites_icon/bolt-svgrepo-com.svg",
@@ -62,34 +62,34 @@
       },
       {
         "name": "Email",
-        "url": "-",
+        "url": "mailto:undergraduate-office@fke.utm.my",
         "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
-        "url": "-",
+        "url": "https://t.me/+zWkPd1FPOTAyNWJl",
         "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
-        "url": "-",
+        "url": "https://drive.google.com/drive/folders/1blgVjUPRniDmv19ka8xP59UMMufLj-mF?usp=sharing",
         "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
-        "url": "-",
+        "url": "https://discord.gg/9FSCdw5yre",
         "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
-        "url": "-",
+        "url": "https://chat.whatsapp.com/CVyJyHHe1YIFsyNhuGOiUl",
         "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
-  }
-  ,{
+  },
+  {
     "id": 3,
     "name": "Civil Engineering",
     "icon": "Faculites_icon/building-svgrepo-com.svg",
@@ -107,34 +107,34 @@
       },
       {
         "name": "Email",
-        "url": "-",
+        "url": "mailto:fka-ug@utm.my",
         "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
-        "url": "-",
+        "url": "https://t.me/PekaUTM",
         "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
-        "url": "-",
+        "url": "https://drive.google.com/drive/folders/1yDZVj_NgAaykJs-c1NO4FG59dMsIYlx2?usp=sharing",
         "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
-        "url": "-",
+        "url": "https://discord.gg/TUjQJzWJpY",
         "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
-        "url": "-",
+        "url": "https://chat.whatsapp.com/CssEABoq0Sk7J7bm7N6xu6",
         "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
-  }
-  ,{
+  },
+  {
     "id": 4,
     "name": "Mechanical Engineering",
     "icon": "Faculites_icon/engine-warning-svgrepo-com.svg",
@@ -142,9 +142,9 @@
     "Flinks": [
       {
         "name": "Website",
-        "url": "mech.utm.my",
+        "url": "https://mech.utm.my",
         "icon": "Social/web-svgrepo-com.svg"
-      },    
+      },
       {
         "name": "Location",
         "url": "-",
@@ -152,34 +152,34 @@
       },
       {
         "name": "Email",
-        "url": "-",
+        "url": "mailto:skm-ug@utm.my",
         "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
-        "url": "-",
+        "url": "https://t.me/+cAO5icfZ0JFhNjFl",
         "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
-        "url": "-",
+        "url": "https://drive.google.com/drive/folders/1Wp_4z8T57MAcfcY74dJux5hhh-Wxgy0J?usp=sharing",
         "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
-        "url": "-",
+        "url": "https://discord.gg/MnAmfPwgRz",
         "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
-        "url": "-",
+        "url": "https://chat.whatsapp.com/EcBWLed42icLAT9yj3xfoi",
         "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
-  }
-  ,{
+  },
+  {
     "id": 5,
     "name": "Chemical Engineering",
     "icon": "Faculites_icon/vial-svgrepo-com.svg",
@@ -187,7 +187,7 @@
     "Flinks": [
       {
         "name": "Website",
-        "url": "fkt.utm.my",
+        "url": "https://fkt.utm.my",
         "icon": "Social/web-svgrepo-com.svg"
       },
       {
@@ -197,34 +197,34 @@
       },
       {
         "name": "Email",
-        "url": "-",
+        "url": "mailto:fcee@utm.my",
         "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
-        "url": "-",
+        "url": "https://t.me/ugfkt",
         "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
-        "url": "-",
+        "url": "https://drive.google.com/drive/folders/1-cOAkpeULwH7xp_dFz6QcuIAqQCj7_jt?usp=sharing",
         "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
-        "url": "-",
+        "url": "https://discord.gg/8bC37vqPTt",
         "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
-        "url": "-",
+        "url": "https://chat.whatsapp.com/D1JEAhoOWkMFucM5wnFPrA",
         "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
-  }
-  ,{
+  },
+  {
     "id": 6,
     "name": "Biomedical Engineering",
     "icon": "Faculites_icon/dna-svgrepo-com.svg",
@@ -242,34 +242,34 @@
       },
       {
         "name": "Email",
-        "url": "-",
+        "url": "mailto:undergraduate-office@fke.utm.my",
         "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
-        "url": "-",
+        "url": "https://t.me/+zWkPd1FPOTAyNWJl",
         "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
-        "url": "-",
+        "url": "https://drive.google.com/drive/folders/1blgVjUPRniDmv19ka8xP59UMMufLj-mF?usp=sharing",
         "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
-        "url": "-",
+        "url": "https://discord.gg/9FSCdw5yre",
         "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
-        "url": "-",
+        "url": "https://chat.whatsapp.com/CVyJyHHe1YIFsyNhuGOiUl",
         "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
-  }
-  ,{
+  },
+  {
     "id": 7,
     "name": "Business & Management",
     "icon": "Faculites_icon/chart-line-svgrepo-com.svg",
@@ -277,7 +277,7 @@
     "Flinks": [
       {
         "name": "Website",
-        "url": "business.utm.my",
+        "url": "https://management.utm.my",
         "icon": "Social/web-svgrepo-com.svg"
       },
       {
@@ -287,34 +287,34 @@
       },
       {
         "name": "Email",
-        "url": "-",
+        "url": "mailto:fm@utm.my",
         "icon": "Social/email-svgrepo-com.svg"
       },
       {
         "name": "Telegram",
-        "url": "-",
+        "url": "https://t.me/fmutmtechnology",
         "icon": "Social/telegram-svgrepo-com.svg"
       }
     ],
     "Slinks": [
       {
         "name": "Drive",
-        "url": "-",
+        "url": "https://drive.google.com/drive/folders/1eeH1To97X9r0WI0zrBE_vx2ncJ_VadU6?usp=sharing",
         "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
-        "url": "-",
+        "url": "https://discord.gg/FybR64Mc",
         "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
-        "url": "-",
+        "url": "https://chat.whatsapp.com/Hrx2FT7QhL2AyGvpyRVXDL",
         "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
-  }
-  ,{
+  },
+  {
     "id": 8,
     "name": "Bridging & Foundation",
     "icon": "Faculites_icon/graduation-hat-alt-1-svgrepo-com.svg",
@@ -332,7 +332,7 @@
       },
       {
         "name": "Email",
-        "url": "-",
+        "url": "mailto:space@utm.my",
         "icon": "Social/email-svgrepo-com.svg"
       },
       {
@@ -344,17 +344,17 @@
     "Slinks": [
       {
         "name": "Drive",
-        "url": "-",
+        "url": "https://drive.google.com/drive/folders/1010-RQ943twaTxcjXmzOx3o59iSi65Bo?usp=sharing",
         "icon": "Social/google-drive-svgrepo-com.svg"
       },
       {
         "name": "Discord",
-        "url": "-",
+        "url": "https://discord.gg/zHsdy9eR5c",
         "icon": "Social/discord-svgrepo-com.svg"
       },
       {
         "name": "Whatsapp",
-        "url": "-",
+        "url": "https://chat.whatsapp.com/H2ABnb2vCdL0zicdsw6eb3",
         "icon": "Social/whatsapp-svgrepo-com.svg"
       }
     ]
