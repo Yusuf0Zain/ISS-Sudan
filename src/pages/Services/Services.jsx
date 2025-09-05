@@ -35,7 +35,7 @@ function Services() {
   const [visibleCircles, setVisibleCircles] = useState(false);
   const prevActiveIndexRef = useRef(null);
   const [selectedGuide, setSelectedGuide] = useState(null);
-  const [setLoadingGuide] = useState(false);
+  const [ ,setLoadingGuide] = useState(false);
 
   const handleButtonClick = (index) => {
     prevActiveIndexRef.current = activeIndex;

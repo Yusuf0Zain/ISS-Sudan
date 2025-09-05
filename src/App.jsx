@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Links from './components/links.jsx'
 import Loader from './components/loading'
+import Forloop from './components/forLoop'
 
 // Lazy load your route components
 const Home = lazy(() => import('./pages/Home/Home'));
@@ -14,6 +15,7 @@ const About = lazy(() => import('./pages/AboutUs/About'));
 function App() {
   return (
     <div className="container">
+      <Forloop count={5} />
       <Links />
       <div className="header">
         <div className="header-left">

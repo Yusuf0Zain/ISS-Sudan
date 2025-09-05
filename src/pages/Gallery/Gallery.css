@@ -1,0 +1,71 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 10px 0;
+
+}
+
+.Gtitle{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 10px;
+    color: #282c34;
+    background-color: #ffffff;
+    border-radius: 10rem;
+    width: 60rem;
+}
+
+.event-year {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #282c34;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  scale: 1.5;
+  border-radius: 100%;
+  z-index: 1;
+  border: 0px solid #282c34;
+  box-shadow: rgba(28, 39, 76, 0.17) 0px -10px 10px 0px inset,
+  rgba(28, 39, 76, 0.15) 0px -15px 15px 0px inset,
+  rgba(28, 39, 76, 0.1) 0px -40px 20px 0px inset;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  opacity: 0; 
+  transition: opacity 0.4s ease-in-out;
+}
+
+.circle:hover {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #282c34;
+}
+.circle:hover img {
+  opacity: 1; 
+}

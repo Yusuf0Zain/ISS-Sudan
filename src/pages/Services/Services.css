@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Changed from height to min-height for better mobile behavior */
+  min-height: 100vh; 
   padding: 10px 0;
 }
 .button-container {
@@ -423,7 +423,7 @@
     text-align: center;
     font-size: 4rem;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: rgb(255, 0, 0);
     text-shadow: #282c34 4px 4px 0px;
     transition: opacity 0.5s;
 }

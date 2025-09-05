@@ -30,8 +30,8 @@ function About() {
     <div>
       <div className="about-content">
         <div className="AboutTitle">
-          <h1 style={{ color: '#04914c', fontSize: '5rem', textShadow: '4px 4px 0px #282c34' }}>What is ISS-Sudan?</h1>
           <img src="/ISSRetro.gif" className="about-image" alt="ISS-Sudan" />
+          <h1 style={{ color: '#04914c', fontSize: '5rem', textShadow: '4px 4px 0px #282c34' }}>What is ISS-Sudan?</h1>
         </div>
         <p>
           ISS-Sudan is a non-profit organization dedicated to providing

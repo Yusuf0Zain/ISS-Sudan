@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "year": "2022-2023",
+    "events": [
+      {
+        "title": "Sudanese Cultural Day",
+        "category": "Social and Cultural",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "women",
+        "category": "women",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "students",
+        "category": "studen",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "academic",
+        "category": "academic",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "sports",
+        "category": "sports",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "year": "2023-2024",
+    "events": [
+      {
+        "title": "Women Empowerment Workshop",
+        "category": "women",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Students' Academic Conference",
+        "category": "academic",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Sports Day",
+        "category": "sports",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "year": "2024-2025",
+    "events": [
+      {
+        "title": "Women Empowerment Workshop",
+        "category": "women",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Students' Academic Conference",
+        "category": "academic",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Sports Day",
+        "category": "sports",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "year": "2025-2026",
+    "events": [
+      {
+        "title": "Women Empowerment Workshop",
+        "category": "women",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Students' Academic Conference",
+        "category": "academic",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Sports Day",
+        "category": "sports",
+        "date": "November 19, 2022",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      }
+    ]
+  }
+]
