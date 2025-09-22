@@ -140,7 +140,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 3px solid #e3d8b3;
   border-radius: 12px;
   padding: 0;
   position: relative;
@@ -158,10 +157,15 @@
 }
 
 .committee-button:hover {
-  transform: translateY(-5px);
-  box-shadow: 6px 6px 0px #000000;
+  background-color: #085d92;
+  transform: translate(-4px, -4px);
+  box-shadow: 8px 8px 0px #000000;
 }
 
+.committee-button.active {
+  color: #000000;
+  outline: 6px solid #e3d8b3;
+}
 
 
 @media (max-width: 768px) {

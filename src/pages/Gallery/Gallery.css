@@ -33,8 +33,55 @@
 
 .timeline {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  margin-top: 40px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 40px;  /* match rope image width */
+  background: url("/public/rope.png") repeat-y center center;
+  background-size: contain; /* scale rope properly */
+  left: 50%;
+  transform: translateX(-50%); /* keep rope centered */
+  z-index: 0;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  top: -35px; /* position above rope */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: rgba(28, 39, 76, 0.17) 0px -10px 10px 0px inset,
+              rgba(28, 39, 76, 0.15) 0px -15px 15px 0px inset,
+              rgba(28, 39, 76, 0.1) 0px -40px 20px 0px inset;
+  z-index: 2;
+}
+
+.timeline-end {
+  position: absolute;
+  bottom: -35px; /* position below rope */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: rgba(28, 39, 76, 0.17) 0px -10px 10px 0px inset,
+              rgba(28, 39, 76, 0.15) 0px -15px 15px 0px inset,
+              rgba(28, 39, 76, 0.1) 0px -40px 20px 0px inset;
+  z-index: 2;
 }
 
 .circle {
@@ -42,30 +89,183 @@
   height: 70px;
   scale: 1.5;
   border-radius: 100%;
-  z-index: 1;
-  border: 0px solid #282c34;
+  z-index: 10;
+  background: #ffffff;
   box-shadow: rgba(28, 39, 76, 0.17) 0px -10px 10px 0px inset,
   rgba(28, 39, 76, 0.15) 0px -15px 15px 0px inset,
   rgba(28, 39, 76, 0.1) 0px -40px 20px 0px inset;
   transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   overflow: hidden;
+  position: relative;
+  margin: 0 auto; /* keep inside rope line */
+}
+
+
+
+
+/* Add these styles to your existing Gallery.css */
+
+.year-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.year-button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-family: 'Anton', sans-serif;
+  background-color: #1c274c;
+  box-shadow: 4px 4px 0px #000000;
+  color: white;
+  border: none;
+  border-radius: 50px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.circle img {
+.year-button:hover {
+  background-color: #085d92;
+  transform: translate(-4px, -4px);
+  box-shadow: 8px 8px 0px #000000;
+}
+
+.year-button.active {
+  background-color: #085d92;
+  color: #ffffff;
+}
+
+.timeline-container {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  opacity: 0; 
-  transition: opacity 0.4s ease-in-out;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.circle:hover {
-  width: 100px;
-  height: 100px;
-  border: 5px solid #282c34;
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  margin-top: 40px;
 }
-.circle:hover img {
-  opacity: 1; 
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background-image: url ('/public/rope.png');
+  left: 50%;
+  margin-left: -2px;
+}
+
+.timeline-event {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-event:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.timeline-event:nth-child(odd) .event-content {
+  text-align: right;
+  margin-right: 40px;
+  margin-left: 0;
+}
+
+.timeline-event:nth-child(even) .event-content {
+  margin-left: 40px;
+  margin-right: 0;
+}
+
+.event-content {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+.event-content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #282c34;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+}
+
+.event-category {
+  padding: 8px 16px;
+  color: #ffffff;
+  border-radius: 50px;
+  margin: 5px 0;
+}
+
+.event-date {
+  color: #666;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.event-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #00ac47;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s;
+}
+
+.event-link:hover {
+  background-color: #00832d;
+}
+
+.driveicon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  vertical-align: middle;
+  filter: invert(1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 31px;
+  }
+  
+  .timeline-event,
+  .timeline-event:nth-child(odd) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .timeline-event:nth-child(odd) .event-content,
+  .timeline-event:nth-child(even) .event-content {
+    margin: 20px 0 0 70px;
+    text-align: left;
+    width: calc(100% - 90px);
+  }
+  
+  .year-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .year-button {
+    width: 200px;
+    margin-bottom: 10px;
+  }
 }

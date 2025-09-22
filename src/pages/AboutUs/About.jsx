@@ -47,56 +47,56 @@ function About() {
           <button 
             className={`committee-button ${activeTeam === 'TopMembers' ? 'active' : ''}`} 
             onClick={() => setActiveTeam('TopMembers')}
-            style={{ backgroundColor: activeTeam === 'TopMembers' ? '#8c0000ff' : '' }}
+            style={{ backgroundColor: activeTeam === 'TopMembers' ? '#f6ffb5ff' : '' }}
           >
             Top 4
           </button>
           <button 
             className={`committee-button ${activeTeam === 'Logistic' ? 'active' : ''}`} 
             onClick={() => setActiveTeam('Logistic')}
-            style={{ backgroundColor: activeTeam === 'Logistic' ? '#8c0000ff' : '' }}
+            style={{ backgroundColor: activeTeam === 'Logistic' ? '#00fff7ff' : '' }}
           >
             Logistic
           </button>
           <button 
             className={`committee-button ${activeTeam === 'Media' ? 'active' : ''}`} 
             onClick={() => setActiveTeam('Media')}
-            style={{ backgroundColor: activeTeam === 'Media' ? '#8c0000ff' : '' }}
+            style={{ backgroundColor: activeTeam === 'Media' ? '#00648cff' : '' }}
           >
             Media
           </button>
           <button 
             className={`committee-button ${activeTeam === 'Social' ? 'active' : ''}`} 
             onClick={() => setActiveTeam('Social')}
-            style={{ backgroundColor: activeTeam === 'Social' ? '#8c0000ff' : '' }}
+            style={{ backgroundColor: activeTeam === 'Social' ? '#d8bd0fff' : '' }}
           >
             Social
           </button>
           <button 
             className={`committee-button ${activeTeam === 'Woman' ? 'active' : ''}`} 
             onClick={() => setActiveTeam('Woman')}
-            style={{ backgroundColor: activeTeam === 'Woman' ? '#8c0000ff' : '' }}
+            style={{ backgroundColor: activeTeam === 'Woman' ? '#9928c5ff' : '' }}
           >
             Women
           </button>
           <button 
             className={`committee-button ${activeTeam === 'Student' ? 'active' : ''}`} 
             onClick={() => setActiveTeam('Student')}
-            style={{ backgroundColor: activeTeam === 'Student' ? '#8c0000ff' : '' }}
+            style={{ backgroundColor: activeTeam === 'Student' ? '#c57928ff' : '' }}
           >
             Student
           </button>
           <button 
             className={`committee-button ${activeTeam === 'Academic' ? 'active' : ''}`} 
             onClick={() => setActiveTeam('Academic')}
-            style={{ backgroundColor: activeTeam === 'Academic' ? '#8c0000ff' : '' }}
+            style={{ backgroundColor: activeTeam === 'Academic' ? '#c52828ff' : '' }}
           >
             Academic
           </button>
           <button 
             className={`committee-button ${activeTeam === 'Sports' ? 'active' : ''}`} 
             onClick={() => setActiveTeam('Sports')}
-            style={{ backgroundColor: activeTeam === 'Sports' ? '#8c0000ff' : '' }}
+            style={{ backgroundColor: activeTeam === 'Sports' ? '#28c52bff' : '' }}
           >
             Sports
           </button>

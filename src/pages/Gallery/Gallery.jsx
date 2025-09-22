@@ -1,29 +1,87 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Gallery.css';
 import events from '../../data/events.json';
 
+const categoryColors = {
+  'social': '#d8bd0fff',
+  'women': '#9928c5ff',
+  'student': '#c57928ff',
+  'academic': '#c52828ff',
+  'sports': '#28c52bff',
+};
+
+const categoryName = {
+  'social': 'Social and Cultural Committee',
+  'women': 'Women Affairs Committee',
+  'student': 'Student Affairs Committee',
+  'academic': 'Academic Committee',
+  'sports': 'Sports Committee',
+};
+
 function Gallery() {
-  return(
+  const [selectedYear, setSelectedYear] = useState(null);
+
+  const handleYearClick = (year) => {
+    setSelectedYear(year === selectedYear ? null : year);
+  };
+
+  return (
     <div className="gallery-container">
       <div className='Gtitle'>
         <h1>Choose Your Year</h1>
-          {events.map(event => (
-            <div key={event.id} className='event-year'>
-              {event.year}
-            </div>
-          ))}
+      </div>
+      
+      {/* Year selection buttons */}
+      <div className="year-buttons">
+        {events.map(event => (
+          <button
+            key={event.id}
+            className={`year-button ${selectedYear === event.year ? 'active' : ''}`}
+            onClick={() => handleYearClick(event.year)}
+          >
+            {event.year}
+          </button>
+        ))}
       </div>
 
-      {events.map(event => (
-        <div key={event.id} className='timeline'>
-          <img src="long-piece-of-natural-jute-rope-on-isolated-background-with-twisted-texture-and-design.png" 
-          alt="Gallery" 
-          />
-          <div className='circle' style={{backgroundColor:'#e3d19c'}}>
-            <img src='fnaf-2-puppet-gangnam-style.gif'/>
-          </div>
+      {/* Timeline for selected year */}
+      {selectedYear && (
+        <div className="timeline-container">
+          {events
+            .filter(event => event.year === selectedYear)
+            .map(yearEvents => (
+              <div key={yearEvents.id} className="timeline">
+              {yearEvents.events.map((event, index) => (
+                <div key={index} className="timeline-event">
+                  <div className='circle'></div>
+                  <div className="event-content">
+                    <h3>{event.title}</h3>
+                    <p 
+                      className="event-category"
+                      style={{ backgroundColor: categoryColors[event.category] }}
+                    >
+                      {categoryName[event.category] || event.category}
+                    </p>
+                    <p className="event-date">{event.date}</p>
+                    <a 
+                      href={event.driveLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="event-link"
+                    >
+                      Drive Link <img src="Social/google-drive-svgrepo-com.svg" className="driveicon" />
+                    </a>
+                  </div>
+                </div>
+              ))}
+
+              {/* Bottom rope circle */}
+              <div className="timeline-end"></div>
+            </div>
+            ))
+          }
         </div>
-      ))}
+      )}
     </div>
   );
 }

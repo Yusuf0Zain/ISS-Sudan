@@ -1,94 +1,206 @@
 [
   {
     "id": 1,
-    "year": "2022-2023",
+    "year": "2023",
     "events": [
       {
-        "title": "Sudanese Cultural Day",
-        "category": "Social and Cultural",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
-      },
-      {
-        "title": "women",
-        "category": "women",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
-      },
-      {
-        "title": "students",
-        "category": "studen",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
-      },
-      {
-        "title": "academic",
-        "category": "academic",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
-      },
-      {
-        "title": "sports",
-        "category": "sports",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
+        "title": "بالذوق يا صحبي, انتظر لقدام :)",
+        "category": "",
+        "date": "",
+        "image": "",
+        "driveLink": "/fnaf-2-puppet-gangnam-style.gif"
       }
     ]
   },
   {
     "id": 2,
-    "year": "2023-2024",
+    "year": "2024",
     "events": [
       {
-        "title": "Women Empowerment Workshop",
-        "category": "women",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
-      },
-      {
-        "title": "Students' Academic Conference",
-        "category": "academic",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
-      },
-      {
-        "title": "Sports Day",
-        "category": "sports",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
+        "title": "بالذوق يا صحبي, انتظر لقدام :)",
+        "category": "",
+        "date": "",
+        "image": "",
+        "driveLink": "/fnaf-2-puppet-gangnam-style.gif"
       }
     ]
   },
   {
     "id": 3,
-    "year": "2024-2025",
+    "year": "2025",
     "events": [
       {
-        "title": "Women Empowerment Workshop",
-        "category": "women",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
-      },
-      {
-        "title": "Students' Academic Conference",
-        "category": "academic",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
-      },
-      {
-        "title": "Sports Day",
+        "title": "Freestylers",
         "category": "sports",
-        "date": "November 19, 2022",
+        "date": "2025-01-18",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/drive/folders/1-6QXzH45ExXbuj2trQNKplDPiHF_bARt?usp=sharing"
+      },
+      {
+        "title": "رمضانا سوداني",
+        "category": "social",
+        "date": "2025-03-07",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": " (نساء) رمضانا سوداني",
+        "category": "women",
+        "date": "2025-03-15",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "الافطار الكبير",
+        "category": "social",
+        "date": "2025-03-24",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "تحرير الخرطوم",
+        "category": "social",
+        "date": "2025-03-29",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "New students welcoming",
+        "category": "student",
+        "date": "2025-04-12",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Floral",
+        "category": "women",
+        "date": "2025-04-19",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "version control workshop",
+        "category": "academic",
+        "date": "2025-04-20",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "دوري الكليات",
+        "category": "sports",
+        "date": "2025-05-03",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Camping trip",
+        "category": "social",
+        "date": "2025-05-07",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Checkmate tournament",
+        "category": "social",
+        "date": "2025-05-11",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Hiking trip",
+        "category": "sports",
+        "date": "2025-05-17",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Movie night",
+        "category": "social",
+        "date": "2025-05-19",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Leadership workshop",
+        "category": "academic",
+        "date": "2025-05-20",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "FC25 tournament",
+        "category": "sports",
+        "date": "2025-05-30",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Math olympics",
+        "category": "academic",
+        "date": "2025-05-31",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Reach to the stars",
+        "category": "women",
+        "date": "2025-05-31",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "CTF",
+        "category": "academic",
+        "date": "2025-06-01",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Art workshop",
+        "category": "social",
+        "date": "2025-06-02",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "عيد الاضحى المبارك1",
+        "category": "social",
+        "date": "2025-06-07",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "عيد الاضحى المبارك2",
+        "category": "social",
+        "date": "2025-06-08",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Industrial visit",
+        "category": "academic",
+        "date": "2025-06-10",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Gezera slam",
+        "category": "sports",
+        "date": "2025-06-21",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Safe space",
+        "category": "women",
+        "date": "2025-06-21",
+        "image": "/placeholder.svg?height=400&width=300",
+        "driveLink": "https://drive.google.com/"
+      },
+      {
+        "title": "Robotic arm workshop",
+        "category": "academic",
+        "date": "2025-08-09",
         "image": "/placeholder.svg?height=400&width=300",
         "driveLink": "https://drive.google.com/"
       }
@@ -96,28 +208,14 @@
   },
   {
     "id": 4,
-    "year": "2025-2026",
+    "year": "2026",
     "events": [
       {
-        "title": "Women Empowerment Workshop",
-        "category": "women",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
-      },
-      {
-        "title": "Students' Academic Conference",
-        "category": "academic",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
-      },
-      {
-        "title": "Sports Day",
-        "category": "sports",
-        "date": "November 19, 2022",
-        "image": "/placeholder.svg?height=400&width=300",
-        "driveLink": "https://drive.google.com/"
+        "title": "لسة مااااااا دخلنا السنة",
+        "category": "",
+        "date": "",
+        "image": "",
+        "driveLink": "/fnaf-2-puppet-gangnam-style.gif"
       }
     ]
   }

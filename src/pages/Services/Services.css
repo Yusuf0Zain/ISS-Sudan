@@ -35,6 +35,7 @@
 }
 .brutalist-button.active {
   background-color: #085d92;
+  outline: 6px solid #e3d8b3;
 }
 .brutalist-button.active .logo {
   animation: spin 5s linear infinite;
@@ -259,7 +260,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 3px solid #e3d8b3;
   border-radius: 12px;
   padding: 0;
   text-decoration: none;
@@ -437,7 +437,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 3px solid #e3d8b3;
   border-radius: 12px;
   padding: 0;
   position: relative;

@@ -8,6 +8,23 @@
   pointer-events: none;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+  position: relative;
+}
+::-webkit-scrollbar-track{
+  background: #ffffff3f;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #08274c;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0055ff;
+  border-radius: 25px;
+}
+
 .container {
   width: 100%;
 
