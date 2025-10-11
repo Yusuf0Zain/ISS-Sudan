@@ -51,7 +51,7 @@ const StyledWrapper = styled.div`
   left: 20px;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 100;
+  z-index: 10;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -69,6 +69,8 @@ const ToggleButton = styled.button`
   cursor: pointer;
   transition: all 0.3s ease;
   color: white;
+  position: relative;
+  z-index: 15;
   
   &:hover {
     background: #e3d8b3;
@@ -93,6 +95,11 @@ const ButtonsContainer = styled.div`
   opacity: ${({ isOpen }) => isOpen ? '1' : '0'};
   transition: all 0.3s ease;
   pointer-events: ${({ isOpen }) => isOpen ? 'all' : 'none'};
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translateX(${({ isOpen }) => isOpen ? '0' : '-100%'}) translateY(-50%);
+  z-index: 5;
 `;
 
 const ButtonWrapper = styled.div`
