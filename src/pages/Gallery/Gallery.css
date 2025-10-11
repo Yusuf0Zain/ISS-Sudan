@@ -241,31 +241,125 @@
 }
 
 /* Responsive design */
+@media (max-width: 1024px) {
+  .Gtitle {
+    font-size: 2.5rem;
+    width: 50rem;
+  }
+  
+  .timeline-container {
+    padding: 15px;
+  }
+}
+
 @media (max-width: 768px) {
+  .gallery-container {
+    padding: 5px 0;
+  }
+  
+  .Gtitle {
+    font-size: 2rem;
+    width: 40rem;
+    padding: 0.5rem;
+  }
+  
   .timeline::before {
-    left: 31px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
   }
   
   .timeline-event,
   .timeline-event:nth-child(odd) {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   
   .timeline-event:nth-child(odd) .event-content,
   .timeline-event:nth-child(even) .event-content {
-    margin: 20px 0 0 70px;
-    text-align: left;
-    width: calc(100% - 90px);
+    margin: 20px 0 0 0;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
   }
   
   .year-buttons {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
   
   .year-button {
     width: 200px;
     margin-bottom: 10px;
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  .event-content {
+    max-width: 400px;
+    padding: 15px;
+  }
+  
+  .event-content h3 {
+    font-size: 1.3rem;
+  }
+  
+  .circle {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 480px) {
+  .Gtitle {
+    font-size: 1.5rem;
+    width: 30rem;
+    padding: 0.3rem;
+  }
+  
+  .timeline::before {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+  }
+  
+  .timeline-event:nth-child(odd) .event-content,
+  .timeline-event:nth-child(even) .event-content {
+    margin: 15px 0 0 0;
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+  }
+  
+  .year-button {
+    width: 150px;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+  
+  .event-content {
+    max-width: 320px;
+    padding: 12px;
+  }
+  
+  .event-content h3 {
+    font-size: 1.1rem;
+  }
+  
+  .event-category {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+  
+  .event-link {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    scale: 1.2;
   }
 }

@@ -88,7 +88,7 @@ const StyledWrapper = styled.div`
   
   @media (max-width: 900px) {
     .menu {
-      padding: 0.5rem;
+      padding: 0.4rem;
       scale: 0.8;
     }
     .link {
@@ -97,14 +97,83 @@ const StyledWrapper = styled.div`
     }
   }
 
+  @media (max-width: 768px) {
+    .menu {
+      padding: 0.3rem;
+      scale: 0.7;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.2rem;
+    }
+    .link {
+      width: 45px;
+      height: 35px;
+      margin: 0.1rem;
+    }
+    .link-icon {
+      width: 20px;
+      height: 20px;
+      left: 12px;
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .link-title {
+      font-size: 0.7rem;
+      text-indent: 20px;
+    }
+  }
+
   @media (max-width: 600px) {
     .menu {
-      padding: 0.5rem;
+      padding: 0.2rem;
       scale: 0.6;
+      gap: 0.1rem;
     }
     .link {
       width: 40px;
       height: 30px;
+      margin: 0.05rem;
+    }
+    .link-icon {
+      width: 16px;
+      height: 16px;
+      left: 10px;
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    .link-title {
+      font-size: 0.6rem;
+      text-indent: 16px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .menu {
+      padding: 0.1rem;
+      scale: 0.5;
+      gap: 0.05rem;
+    }
+    .link {
+      width: 35px;
+      height: 25px;
+      margin: 0.02rem;
+    }
+    .link-icon {
+      width: 14px;
+      height: 14px;
+      left: 8px;
+      svg {
+        width: 14px;
+        height: 14px;
+      }
+    }
+    .link-title {
+      font-size: 0.5rem;
+      text-indent: 14px;
     }
   }
   

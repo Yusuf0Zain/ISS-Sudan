@@ -92,6 +92,19 @@
   padding-top: 100px; /* Adjust this value to match your header height */
 }
 
+/* Mobile responsive main content */
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 120px; /* More space for mobile header */
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding-top: 140px; /* Even more space for very small screens */
+  }
+}
+
 .header {
   position: fixed;
   z-index: 1000;
@@ -105,7 +118,36 @@
   padding: 0.5rem 0.5rem;
   min-height: 40px;
   box-sizing: border-box;
-  gap: 2rem;
+  gap: 1rem;
+}
+
+/* Mobile-first responsive design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.25rem;
+    min-height: auto;
+  }
+  
+  .header-left,
+  .header-center,
+  .header-right {
+    flex: none;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .header-center {
+    order: -1; /* Move navbar to top on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0.1rem;
+    gap: 0.25rem;
+  }
 }
 
 .header-left,
@@ -164,16 +206,47 @@
   }
 }
 
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 1.8rem;
+    margin-left: 0.25rem;
+  }
+  .logo-img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .license {
+    font-size: 0.9rem;
+    padding: 1rem 0.5rem;
+  }
+}
+
 @media (max-width: 600px) {
   .header-title {
     font-size: 1.3rem;
+    margin-left: 0.1rem;
   }
   .logo-img {
     width: 1.8rem;
     height: 1.8rem;
   }
   .license {
-    font-size: 0.9rem;
-    padding: 1rem 0.2rem;
+    font-size: 0.8rem;
+    padding: 0.8rem 0.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 1.1rem;
+    margin-left: 0.05rem;
+  }
+  .logo-img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .license {
+    font-size: 0.7rem;
+    padding: 0.6rem 0.1rem;
   }
 }

@@ -20,3 +20,28 @@
   text-align: center;
   font-size: 2rem;
 }
+
+/* Mobile responsive button */
+@media (max-width: 768px) {
+  .button {
+    height: 70px;
+    width: 130px;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    height: 60px;
+    width: 110px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .button {
+    height: 50px;
+    width: 90px;
+    font-size: 1.2rem;
+  }
+}

@@ -27,7 +27,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Anton', Arial, sans-serif;
   background-color: rgb(8, 39, 76);
+}
 
+/* Mobile-first responsive design */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Slightly smaller base font for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px; /* Even smaller for very small screens */
+  }
 }
 a {
     text-decoration: none;
@@ -54,6 +66,23 @@ button{
   transition: all 0.3s ease-out;
   background-color: #1c274c;
   color: #e3d8b3;
+}
+
+/* Mobile responsive DocButton */
+@media (max-width: 768px) {
+  .DocButton {
+    height: 35px;
+    width: 100px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .DocButton {
+    height: 30px;
+    width: 80px;
+    font-size: 0.8rem;
+  }
 }
 .DocButton:hover {
   background-color: #085d92;
