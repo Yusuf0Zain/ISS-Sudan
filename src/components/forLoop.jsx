@@ -23,10 +23,10 @@ const BgLoop = styled.div`
   top: 0;
   left: 0;
   width: 100vw;
-  height: 1000vh; /* two containers stacked */
+  height: 500vh; /* two containers stacked */
   overflow: hidden;
   pointer-events: none;
-  z-index: 0;
+  z-index: 1;
 }
 .bg-img-container {
   position: relative;
@@ -34,6 +34,7 @@ const BgLoop = styled.div`
   width: 100%;
   height: 100vh; 
   overflow: hidden;
+  margin-bottom: -40px;
 }
 
 .bg-img1 {

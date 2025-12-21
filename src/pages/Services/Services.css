@@ -17,9 +17,8 @@
 }
 
 .guides-section .button-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 15px;
   padding: 20px;
   width: 100%;
@@ -27,22 +26,7 @@
   margin: 0 auto;
 }
 
-/* Mobile responsive guides section */
-@media (max-width: 768px) {
-  .guides-section .button-container {
-    gap: 12px;
-    padding: 15px;
-    max-width: 400px;
-  }
-}
 
-@media (max-width: 480px) {
-  .guides-section .button-container {
-    gap: 10px;
-    padding: 10px;
-    max-width: 350px;
-  }
-}
 .button-container {
   display: flex;
   flex-wrap: wrap; 
@@ -72,7 +56,7 @@
 }
 .brutalist-button.active {
   background-color: #085d92;
-  outline: 6px solid #e3d8b3;
+  outline: 6px solid ;
 }
 .brutalist-button.active .logo {
   animation: spin 5s linear infinite;
@@ -168,54 +152,6 @@
   filter: brightness(0) invert(1);
 }
 
-/* Responsive adjustments */
-@media (max-width: 1024px) {
-  .faculty-links,
-  .iss-links {
-    right: 15px;
-  }
-  
-  .faculty-links h3,
-  .iss-links h3 {
-    font-size: 1rem;
-  }
-  
-  .faculty-link,
-  .iss-link {
-    padding: 6px 12px;
-    font-size: 0.9rem;
-    width: 160px;
-  }
-}
-
-@media (max-width: 768px) {
-  .faculty-details::before {
-    display: none;
-  }
-  
-  .faculty-links {
-    top: 10px;
-    right: 10px;
-  }
-  
-  .iss-links {
-    top: 40%;
-    right: 10px;
-  }
-
-  
-  .faculty-link,
-  .iss-link {
-    padding: 5px 10px;
-    font-size: 0.8rem;
-    width: 140px;
-  }
-  
-  .link-icon {
-    width: 16px;
-    height: 16px;
-  }
-}
 
 .faculty {
   display: flex;
@@ -446,16 +382,6 @@
 }
 
 
-
-
-
-@media (hover: hover) and (pointer: fine) {
-  .brutalist-button:hover {
-    transform: translate(-4px, -4px);
-    box-shadow: 8px 8px 0px #000000;
-  }
-}
-
 .Ftitle{
     text-align: center;
     font-size: 4rem;
@@ -485,31 +411,6 @@
   background-color: #1c274c;
 }
 
-/* Mobile responsive helping buttons - single column layout */
-@media (max-width: 768px) {
-  .helping-button {
-    height: 8rem;
-    width: 25rem;
-    margin: 10px auto;
-  }
-}
-
-@media (max-width: 480px) {
-  .helping-button {
-    height: 6rem;
-    width: 20rem;
-    margin: 8px auto;
-  }
-  
-  .button-text-help {
-    font-size: 1.2rem;
-  }
-  
-  .helping-logo {
-    width: 70px;
-    height: 70px;
-  }
-}
 
 .button-text-help {
   display: flex;
@@ -585,162 +486,9 @@
   background-color: #085d92;
   z-index: 0;
 }
+
 .helping-button:hover::before {
   transform: translateX(-50%) scale(1);
-}
-@media (max-width: 1024px) {
-  .faculty-container {
-    height: 75vh;
-  }
-  
-  .faculty-links,
-  .iss-links {
-    right: 15px;
-  }
-  
-  .faculty-links h3,
-  .iss-links h3 {
-    font-size: 1rem;
-  }
-  
-  .faculty-link,
-  .iss-link {
-    padding: 6px 12px;
-    font-size: 0.9rem;
-    width: 160px;
-  }
-}
-
-@media (max-width: 768px) {
-  .services-container {
-    height: auto;
-    padding: 20px 0;
-  }
-
-  .faculty-container {
-    height: 70vh;
-    margin: 10px;
-  }
-
-  .button-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 6px;
-    padding: 6px;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  .brutalist-button {
-    width: 100%;
-    height: 80px;
-    font-size: 0.8rem;
-    aspect-ratio: 1;
-  }
-
-  .Ftitle {
-    font-size: 2.2rem;
-    margin-bottom: 15px;
-  }
-
-  .logo {
-    width: 50px;
-    height: 50px;
-  }
-
-  .icon {
-    width: 30px;
-    height: 30px;
-  }
-
-  .faculty-links {
-    top: 10px;
-    right: 10px;
-  }
-  
-  .iss-links {
-    top: 40%;
-    right: 10px;
-  }
-
-  .faculty-link,
-  .iss-link {
-    padding: 5px 10px;
-    font-size: 0.8rem;
-    width: 120px;
-  }
-  
-  .link-icon {
-    width: 16px;
-    height: 16px;
-  }
-}
-
-@media (max-width: 480px) {
-  .services-container {
-    padding: 15px 0;
-  }
-
-  .faculty-container {
-    height: 60vh;
-    margin: 5px;
-  }
-
-  .button-container {
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 500px;
-    gap: 4px;
-    padding: 4px;
-  }
-
-  .brutalist-button {
-    height: 70px;
-    font-size: 0.7rem;
-    aspect-ratio: 1;
-  }
-
-  .Ftitle {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-  }
-
-  .logo {
-    width: 40px;
-    height: 40px;
-  }
-
-  .icon {
-    width: 25px;
-    height: 25px;
-  }
-
-  .faculty-links,
-  .iss-links {
-    right: 5px;
-  }
-
-  .faculty-links h3,
-  .iss-links h3 {
-    font-size: 0.8rem;
-  }
-
-  .faculty-link,
-  .iss-link {
-    padding: 4px 8px;
-    font-size: 0.7rem;
-    width: 100px;
-  }
-
-  .SocialLink {
-    width: 40px;
-    height: 40px;
-  }
-
-  .socialIcon {
-    width: 20px;
-    height: 20px;
-  }
 }
 
 .circle-container {

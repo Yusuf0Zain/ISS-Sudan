@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import './Gallery.css';
+import React, { useState, useEffect } from 'react';
 import events from '../../data/events.json';
+import './Gallery.css';
 
 const categoryColors = {
   'social': '#d8bd0fff',
@@ -19,6 +19,7 @@ const categoryName = {
 };
 
 function Gallery() {
+
   const [selectedYear, setSelectedYear] = useState(null);
 
   const handleYearClick = (year) => {
@@ -27,6 +28,7 @@ function Gallery() {
 
   return (
     <div className="gallery-container">
+      <title>ISS-Sudan Gallery</title>
       <div className='Gtitle'>
         <h1>Choose Your Year</h1>
       </div>
@@ -82,6 +84,7 @@ function Gallery() {
           }
         </div>
       )}
+      
     </div>
   );
 }

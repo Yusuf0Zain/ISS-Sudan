@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './Home.css';
 const images = require.context('../../assets/groups', false, /\.(png|jpe?g|svg)$/)
   .keys()
@@ -5,8 +6,10 @@ const images = require.context('../../assets/groups', false, /\.(png|jpe?g|svg)$
 
 
 function Home() {
+
   return (
     <div className="home-bg-wrapper">
+      <title>ISS-Sudan Home</title>
       <div className="moving-bg">
         {images.map((img, idx) => (
           <img key={idx} src={img} alt={`group${idx + 1}`} className="bg-img" />

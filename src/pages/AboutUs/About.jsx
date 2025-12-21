@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import './About.css';
 import MovingPattern from '../../components/MovingPattern.jsx';
 import teamMembers from '../../data/teamMembers.json';
+import './About.css';
 
 function About() {
   const [activeTeam, setActiveTeam] = useState('TopMembers');
@@ -29,6 +29,7 @@ function About() {
   return (
     <div>
       <div className="about-content">
+        <title>ISS-Sudan About Us</title>
         <div className="AboutTitle">
           <img src="/ISSRetro.gif" className="about-image" alt="ISS-Sudan" />
           <h1 style={{ color: '#04914c', fontSize: '5rem', textShadow: '4px 4px 0px #282c34' }}>What is ISS-Sudan?</h1>

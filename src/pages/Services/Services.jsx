@@ -1,8 +1,7 @@
-import './Services.css';
 import { useState, useEffect, useRef } from 'react';
+import './Services.css';
 import faculty from '../../data/faculties.json';
 import helps from '../../data/helps.json';
-
 // Import all guide components
 import Visas from './guides/visas';
 import Health from './guides/health';
@@ -30,6 +29,7 @@ const guideComponents = {
 };
 
 function Services() {
+  const [isMobile, setIsMobile] = useState(false);
   const [activeIndex, setActiveIndex] = useState(null);
   const [animateCircles, setAnimateCircles] = useState(false);
   const [visibleCircles, setVisibleCircles] = useState(false);
@@ -77,6 +77,7 @@ function Services() {
 
   return (
     <div className="services-container">
+      <title>ISS-Sudan Services</title>
       <div className={`faculty-container ${activeIndex !== null ? 'active' : ''}`}>
         <div className="mask">
           <div className="faculty-details">
@@ -191,7 +192,8 @@ function Services() {
         <div className="popup-overlay">
           <div className="popup-box">
             {/* Header with Title and Close */}
-            <div className="popup-header">              <button
+            <div className="popup-header">
+              <button
                 className="close-btn"
                 onClick={() => setSelectedGuide(null)}
               >

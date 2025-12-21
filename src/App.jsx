@@ -15,7 +15,7 @@ const About = lazy(() => import('./pages/AboutUs/About'));
 function App() {
   return (
     <div className="container">
-      <Forloop count={5} />
+      <Forloop count={10} />
       <Links />
       <div className="header">
         <div className="header-left">

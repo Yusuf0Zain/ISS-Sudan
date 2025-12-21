@@ -19,5 +19,12 @@
     "url": "https://www.tiktok.com/@iss_sudan?_t=ZM-8uEkPflCD8n&_r=1",
     "icon": "Social/tiktok-svgrepo-com.svg",
     "color": "bg-gradient-to-br from-#25f4ee to-#fe2c55"
+  },
+  {
+    "id": 4,
+    "name": "Youtube",
+    "url": "https://www.youtube.com/@ISS-SUDANUTM",
+    "icon": "Social/youtube-168-svgrepo-com.svg",
+    "color": "bg-gradient-to-br from-#ff0000 to-#630f9f"
   }
 ]

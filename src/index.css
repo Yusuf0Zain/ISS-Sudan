@@ -12,10 +12,14 @@
   font-style: normal;
 }
 
+:root {
+  --color-theme: #e3d8b3;
+  --color-theme2: #1C274C;
+}
 body {
   width: 100vw;
   overflow-x: hidden;
-  min-height: 100vh;
+
   margin: 0;
   padding: 0;
   
@@ -56,7 +60,7 @@ button{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 3px solid #e3d8b3;
+  border: 3px solid var(--color-theme);
   border-radius: 12px;
   position: relative;
   box-shadow: 4px 4px 0px #000000;
@@ -65,7 +69,7 @@ button{
   cursor: pointer;
   transition: all 0.3s ease-out;
   background-color: #1c274c;
-  color: #e3d8b3;
+  color: var(--color-theme);
 }
 
 /* Mobile responsive DocButton */
@@ -100,17 +104,7 @@ header {
   color: white;
 }
 
-.license {
-  position: relative;
-  z-index: 1;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  padding: 2rem 1rem;
-  color: white;
-  font: 1.2rem;
-}
+
 
 @media (max-width: 900px) {
   .header-title {
@@ -119,10 +113,6 @@ header {
   .logo-img {
     width: 2.5rem;
     height: 2.5rem;
-  }
-  .license {
-    font-size: 1rem;
-    padding: 1.5rem 0.5rem;
   }
 }
 
@@ -133,10 +123,6 @@ header {
   .logo-img {
     width: 1.8rem;
     height: 1.8rem;
-  }
-  .license {
-    font-size: 0.9rem;
-    padding: 1rem 0.2rem;
   }
 }
 

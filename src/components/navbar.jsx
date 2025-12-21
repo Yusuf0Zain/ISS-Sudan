@@ -108,7 +108,7 @@ const StyledWrapper = styled.div`
     .link {
       width: 45px;
       height: 35px;
-      margin: 0.1rem;
+      margin: 0.1rem;z
     }
     .link-icon {
       width: 20px;
