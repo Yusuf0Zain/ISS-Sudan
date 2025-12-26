@@ -17,12 +17,12 @@
   border-radius: 25px;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: #08274c;
+  background-color: var(--color-theme2);
   border-radius: 25px;
+  transition: filter 0.3s ease;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #0055ff;
-  border-radius: 25px;
+  filter: brightness(1.5);
 }
 
 .container {

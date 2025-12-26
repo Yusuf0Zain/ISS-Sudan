@@ -56,7 +56,7 @@
 }
 .brutalist-button.active {
   background-color: #085d92;
-  outline: 6px solid ;
+  outline: 6px solid var(--color-theme);
 }
 .brutalist-button.active .logo {
   animation: spin 5s linear infinite;
@@ -117,7 +117,7 @@
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   cursor: pointer;
   transition: all 0.3s ease-out;
-  background: #e3d8b3;
+  background: var(--color-theme);
   position: relative;
   z-index: 8;
   pointer-events: auto;
@@ -179,7 +179,7 @@
   flex-direction: column;
 }
 .faculty-details > h1:first-child {
-  color: #e3d8b3;
+  color: var(--color-theme);
   font-size: 2rem;
   margin-bottom: 5px;
 }
@@ -242,7 +242,7 @@
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   height: 130px;
   width: 130px;
-  background-color: #1c274c;
+  background-color: var(--color-theme2);
   cursor: pointer;
 }
 
@@ -262,7 +262,7 @@
 
 
 .brutalist-button.claude::before {
-  background-color: #e3d19c;
+  background-color: var(--color-theme);
 }
 
 .brutalist-button:hover::before {
@@ -296,7 +296,7 @@
   animation: spin 5s linear infinite;
   animation-play-state: paused;
   justify-content: center;
-  background-color: #e3d8b3;
+  background-color: var(--color-theme);
   border-radius: 50%;
 }
 
@@ -408,7 +408,7 @@
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   height: 10rem;
   width: 30rem;
-  background-color: #1c274c;
+  background-color: var(--color-theme2);
 }
 
 
@@ -417,7 +417,7 @@
   flex-direction: row;
   line-height: 1.3;
   text-shadow: #282c34 0px 3px 0px;
-  color:#e3d19c;
+  color:var(--color-theme);
   font-size: 1.5rem;
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   position: relative;
@@ -451,7 +451,7 @@
   animation: spin 5s linear infinite;
   animation-play-state: paused;
   justify-content: center;
-  background-color: #e3d8b3;
+  background-color: var(--color-theme);
   color: black;
   border-radius: 50%;
 }
@@ -504,7 +504,7 @@
 .circle {
   position: absolute;
   border-radius: 50%;
-  border: 6px solid #e6dfc7; /* matches your style */
+  border: 6px solid var(--color-theme); /* matches your style */
   overflow: hidden;
   opacity: 0;
   transform: scale(0);
@@ -620,7 +620,7 @@
 /* Popup box */
 .popup-box {
   background: white;
-  border: 6px solid #d6c9a0;
+  border: 6px solid var(--color-theme);
   border-radius: 12px;
   padding: 30px;
   width: 70%;

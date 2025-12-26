@@ -250,8 +250,8 @@
   height: 80px;
   width: 150px;
   cursor: pointer;
-  background-color: #1c274c;
-  color: #e3d8b3;
+  background-color: var(--color-theme2);
+  color: var(--color-theme);
   font-size: 1rem;
   text-align: center;
   font-size: 2rem;
@@ -265,7 +265,7 @@
 
 .committee-button.active {
   color: #000000;
-  outline: 6px solid #e3d8b3;
+  outline: 6px solid var(--color-theme);
 }
 
 

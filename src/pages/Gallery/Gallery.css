@@ -117,7 +117,7 @@
   padding: 12px 24px;
   font-size: 1.2rem;
   font-family: 'Anton', sans-serif;
-  background-color: #1c274c;
+  background-color: var(--color-theme2);
   box-shadow: 4px 4px 0px #000000;
   color: white;
   border: none;

@@ -17,7 +17,7 @@ const Button = () => {
 
       <ToggleButton onClick={() => setIsOpen(!isOpen)} isOpen={isOpen}>
         <svg viewBox="0 0 24 24" width="24" height="24">
-          <path fill="#1c274c" d={isOpen ? "M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" : "M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"} />
+          <path fill="var(--color-theme2)" d={isOpen ? "M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" : "M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"} />
         </svg>
       </ToggleButton>
 
@@ -58,7 +58,7 @@ const StyledWrapper = styled.div`
 `;
 
 const ToggleButton = styled.button`
-  background: #e3d8b3;
+  background: var(--color-theme);
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -73,7 +73,7 @@ const ToggleButton = styled.button`
   z-index: 15;
   
   &:hover {
-    background: #e3d8b3;
+    background: var(--color-theme);
     transform: scale(1.1);
   }
     
@@ -87,7 +87,7 @@ const ButtonsContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 15px;
-  background-color: #1c274c;
+  background-color: var(--color-theme2);
   border-radius: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 15px;
@@ -118,7 +118,7 @@ const SocialLink = styled.a`
   cursor: pointer;
   transition: all 0.3s ease-out;
   clip-path: url(#squircleClip);
-  background: #e3d8b3;
+  background: var(--color-theme);
   
   &:hover {
     transform: scale(1.1) translateY(-3px);
